@@ -1,0 +1,17 @@
+[
+  {
+    "file": "image.jpg",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/coco_000000039769.jpg",
+    "sha256": "dea9e7ef97386345f7cff32f9055da4982da5471c48d575146c796ab4563b04e"
+  },
+  {
+    "file": "video/000.jpg",
+    "source": "/data1/is156025/cg276974/DynEOMT/data/VIPSeg/VIPSeg_720P/images/796_-88oVA7Qjjg/00000663.jpg",
+    "sha256": "e25f95271a5ef9f6f65beb3f8a53e00f5b704a7158e43c61bddcb0e16f9179ec"
+  },
+  {
+    "file": "video/001.jpg",
+    "source": "/data1/is156025/cg276974/DynEOMT/data/VIPSeg/VIPSeg_720P/images/796_-88oVA7Qjjg/00000666.jpg",
+    "sha256": "19a61a393c713babed1633e1669e90d5ad1c793f5229235c918b52a7da5f06b5"
+  }
+]

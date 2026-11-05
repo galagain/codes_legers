@@ -1,0 +1,142 @@
+MODEL:
+  META_ARCHITECTURE: MaskFormer
+  PIXEL_MEAN:
+  - 123.675
+  - 116.28
+  - 103.53
+  PIXEL_STD:
+  - 58.395
+  - 57.12
+  - 57.375
+  BACKBONE:
+    FREEZE_AT: 0
+    NAME: build_afformer_backbone
+  SEM_SEG_HEAD:
+    NAME: MaskFormerHead
+    IGNORE_VALUE: 255
+    NUM_CLASSES: 150
+    LOSS_WEIGHT: 1.0
+    CONVS_DIM: 128
+    MASK_DIM: 128
+    NORM: GN
+    PIXEL_DECODER_NAME: MSDeformAttnPixelDecoder
+    DEFORMABLE_TRANSFORMER_ENCODER_IN_FEATURES:
+    - res2
+    - res3
+    - res4
+    - res5
+    IN_FEATURES:
+    - res2
+    - res3
+    - res4
+    - res5
+    COMMON_STRIDE: 4
+    TRANSFORMER_ENC_LAYERS: 3
+    PROJECT_FEATURES:
+    - res2
+    PROJECT_CHANNELS:
+    - 48
+  MASK_FORMER:
+    TRANSFORMER_DECODER_NAME: MultiScaleMaskedTransformerDecoder
+    TRANSFORMER_IN_FEATURE: multi_scale_pixel_decoder
+    DEEP_SUPERVISION: true
+    NO_OBJECT_WEIGHT: 0.1
+    CLASS_WEIGHT: 2.0
+    MASK_WEIGHT: 5.0
+    DICE_WEIGHT: 5.0
+    HIDDEN_DIM: 256
+    NUM_OBJECT_QUERIES: 100
+    NHEADS: 8
+    DROPOUT: 0.0
+    DIM_FEEDFORWARD: 2048
+    ENC_LAYERS: 0
+    PRE_NORM: false
+    ENFORCE_INPUT_PROJ: false
+    SIZE_DIVISIBILITY: 32
+    DEC_LAYERS: 10
+    TRAIN_NUM_POINTS: 12544
+    OVERSAMPLE_RATIO: 3.0
+    IMPORTANCE_SAMPLE_RATIO: 0.75
+    TEST:
+      SEMANTIC_ON: true
+      INSTANCE_ON: true
+      PANOPTIC_ON: true
+      OVERLAP_THRESHOLD: 0.8
+      OBJECT_MASK_THRESHOLD: 0.8
+  WEIGHTS: ''
+DATASETS:
+  TRAIN: ("ade20k_panoptic_train",)
+  TEST: ("ade20k_panoptic_val",)
+SOLVER:
+  IMS_PER_BATCH: 16
+  BASE_LR: 0.0001
+  MAX_ITER: 160000
+  WARMUP_FACTOR: 1.0
+  WARMUP_ITERS: 0
+  WEIGHT_DECAY: 0.05
+  OPTIMIZER: ADAMW
+  LR_SCHEDULER_NAME: WarmupPolyLR
+  BACKBONE_MULTIPLIER: 0.1
+  CLIP_GRADIENTS:
+    ENABLED: true
+    CLIP_TYPE: full_model
+    CLIP_VALUE: 0.01
+    NORM_TYPE: 2.0
+  AMP:
+    ENABLED: false
+INPUT:
+  COLOR_AUG_SSD: true
+  CROP:
+    ENABLED: true
+    SINGLE_CATEGORY_MAX_AREA: 1.0
+    SIZE:
+    - 640
+    - 640
+    TYPE: absolute
+  DATASET_MAPPER_NAME: mask_former_panoptic
+  FORMAT: RGB
+  IMAGE_SIZE: 1024
+  MASK_FORMAT: polygon
+  MAX_SCALE: 2.0
+  MAX_SIZE_TEST: 2560
+  MAX_SIZE_TRAIN: 2560
+  MIN_SCALE: 0.1
+  MIN_SIZE_TEST: 640
+  MIN_SIZE_TRAIN:
+  - 320
+  - 384
+  - 448
+  - 512
+  - 576
+  - 640
+  - 704
+  - 768
+  - 832
+  - 896
+  - 960
+  - 1024
+  - 1088
+  - 1152
+  - 1216
+  - 1280
+  MIN_SIZE_TRAIN_SAMPLING: choice
+  RANDOM_FLIP: horizontal
+  SIZE_DIVISIBILITY: 640
+TEST:
+  EVAL_PERIOD: 5000
+  AUG:
+    ENABLED: false
+    MIN_SIZES:
+    - 320
+    - 480
+    - 640
+    - 800
+    - 960
+    - 1120
+    MAX_SIZE: 4480
+    FLIP: true
+DATALOADER:
+  FILTER_EMPTY_ANNOTATIONS: true
+  NUM_WORKERS: 4
+VERSION: 2
+OUTPUT_DIR: outputs/lips_ade20k_4levels

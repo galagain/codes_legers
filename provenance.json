@@ -1,0 +1,1501 @@
+{
+  "sources": {
+    "LiPS": {
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former",
+      "git_head": "09dd476ce8e97d385c0743e1114439514c83c0f6",
+      "note": "Copie des fichiers présents, y compris modifications locales; historique Git exclu."
+    },
+    "TokenMask": {
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt",
+      "git_head": "2ba3e64cfbab3f6296aa2293d4c58cf8a2d8b2b1",
+      "note": "Copie des fichiers présents, y compris modifications locales; historique Git exclu."
+    },
+    "DynEoMT": {
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT",
+      "git_head": "af740ed29bc5ad667048c1afce6568fcd3d070e6",
+      "note": "Copie des fichiers présents, y compris modifications locales; historique Git exclu."
+    }
+  },
+  "copied_files": [
+    {
+      "file": "LiPS/mask2former/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/__init__.py",
+      "copied_source_sha256": "20c1d6cb6e6e33d6425477154437c9bc49cc01c3b8db0af164a00a6dddf3e9d0",
+      "bundle_sha256": "20c1d6cb6e6e33d6425477154437c9bc49cc01c3b8db0af164a00a6dddf3e9d0",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/config.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/config.py",
+      "copied_source_sha256": "8a5705ab39a8b1aa9ec2e71aaac38d618c6d3aacc5e7b2b0c9559d88e88cd819",
+      "bundle_sha256": "8a5705ab39a8b1aa9ec2e71aaac38d618c6d3aacc5e7b2b0c9559d88e88cd819",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/__init__.py",
+      "copied_source_sha256": "1ada284520fea06c42f2d5c1391213fdc7f8e7357341d692335aa90547e931e7",
+      "bundle_sha256": "1ada284520fea06c42f2d5c1391213fdc7f8e7357341d692335aa90547e931e7",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/dataset_mappers/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/dataset_mappers/__init__.py",
+      "copied_source_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "bundle_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/dataset_mappers/coco_instance_new_baseline_dataset_mapper.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/dataset_mappers/coco_instance_new_baseline_dataset_mapper.py",
+      "copied_source_sha256": "60ceca7d5c472dcee5cedcad545bb49be569d8263ee1f871b68851091a1566a3",
+      "bundle_sha256": "60ceca7d5c472dcee5cedcad545bb49be569d8263ee1f871b68851091a1566a3",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/dataset_mappers/coco_panoptic_new_baseline_dataset_mapper.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/dataset_mappers/coco_panoptic_new_baseline_dataset_mapper.py",
+      "copied_source_sha256": "1bb64545e261fb5cac91eae132b1e64e5751c56bdfdc38f2ab29b2e0955ec8b6",
+      "bundle_sha256": "1bb64545e261fb5cac91eae132b1e64e5751c56bdfdc38f2ab29b2e0955ec8b6",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/dataset_mappers/mask_former_instance_dataset_mapper.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/dataset_mappers/mask_former_instance_dataset_mapper.py",
+      "copied_source_sha256": "25cda8074a44fc1b3215bcb71ea5375da9daf075091250770e40556ab3aac1a2",
+      "bundle_sha256": "25cda8074a44fc1b3215bcb71ea5375da9daf075091250770e40556ab3aac1a2",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/dataset_mappers/mask_former_panoptic_dataset_mapper.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/dataset_mappers/mask_former_panoptic_dataset_mapper.py",
+      "copied_source_sha256": "94e84ee0395c2d8ff62a064884645fe903a4d3ef5aa42a81aec17002a1caf20c",
+      "bundle_sha256": "94e84ee0395c2d8ff62a064884645fe903a4d3ef5aa42a81aec17002a1caf20c",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/dataset_mappers/mask_former_semantic_dataset_mapper.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/dataset_mappers/mask_former_semantic_dataset_mapper.py",
+      "copied_source_sha256": "b7b513d5dbfd8306a3092ee6ef9f47d70daaaec1efb90add81258833cae3b90f",
+      "bundle_sha256": "b7b513d5dbfd8306a3092ee6ef9f47d70daaaec1efb90add81258833cae3b90f",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/datasets/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/datasets/__init__.py",
+      "copied_source_sha256": "1ef8bb871c49b6d4bf5e655fcf62e1ddf77e0cf1d6f9b82f01d3f31ed255f7de",
+      "bundle_sha256": "1ef8bb871c49b6d4bf5e655fcf62e1ddf77e0cf1d6f9b82f01d3f31ed255f7de",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/datasets/register_ade20k_full.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/datasets/register_ade20k_full.py",
+      "copied_source_sha256": "0b1483c4c21b520984c066ee324f66948286a89195a7bc1fd07ca6af2ec7fbdf",
+      "bundle_sha256": "0b1483c4c21b520984c066ee324f66948286a89195a7bc1fd07ca6af2ec7fbdf",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/datasets/register_ade20k_instance.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/datasets/register_ade20k_instance.py",
+      "copied_source_sha256": "ce50005487184a70b7ecdea0d7ac7cba2fdcdc1caebf2eeb5e3d9d98bf96ecd6",
+      "bundle_sha256": "ce50005487184a70b7ecdea0d7ac7cba2fdcdc1caebf2eeb5e3d9d98bf96ecd6",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/datasets/register_ade20k_panoptic.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/datasets/register_ade20k_panoptic.py",
+      "copied_source_sha256": "947ad32480e37838018cd05c6aba4a25238b5274f2a3f3ba38ecdd458a2747fa",
+      "bundle_sha256": "947ad32480e37838018cd05c6aba4a25238b5274f2a3f3ba38ecdd458a2747fa",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/datasets/register_coco_panoptic_annos_semseg.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/datasets/register_coco_panoptic_annos_semseg.py",
+      "copied_source_sha256": "7908d4e1d4645c0ac149fb52db4835599d361a3c4d366150f66070fd352eb135",
+      "bundle_sha256": "7908d4e1d4645c0ac149fb52db4835599d361a3c4d366150f66070fd352eb135",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/datasets/register_coco_stuff_10k.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/datasets/register_coco_stuff_10k.py",
+      "copied_source_sha256": "b5a98bee10763b0b880810370cd992f20666b561a02a1038924d627d2bd4f1c8",
+      "bundle_sha256": "b5a98bee10763b0b880810370cd992f20666b561a02a1038924d627d2bd4f1c8",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/datasets/register_mapillary_vistas.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/datasets/register_mapillary_vistas.py",
+      "copied_source_sha256": "1cbb3c0b5402dec07bde5b0dc76df478aaa28d07c0bf7b26d65f7eaf33e7882e",
+      "bundle_sha256": "1cbb3c0b5402dec07bde5b0dc76df478aaa28d07c0bf7b26d65f7eaf33e7882e",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/data/datasets/register_mapillary_vistas_panoptic.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/data/datasets/register_mapillary_vistas_panoptic.py",
+      "copied_source_sha256": "ed310a118a57b1124a829db9298ba04a07036b237f2a49c64c8e7727fdc7fd79",
+      "bundle_sha256": "ed310a118a57b1124a829db9298ba04a07036b237f2a49c64c8e7727fdc7fd79",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/evaluation/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/evaluation/__init__.py",
+      "copied_source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/evaluation/instance_evaluation.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/evaluation/instance_evaluation.py",
+      "copied_source_sha256": "7b48dfb3f22661f23545256c981e651b8792ac339d6d68fbdc6c149e0a819a6c",
+      "bundle_sha256": "7b48dfb3f22661f23545256c981e651b8792ac339d6d68fbdc6c149e0a819a6c",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/maskformer_model.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/maskformer_model.py",
+      "copied_source_sha256": "fa52d4f9ccc8055c69a034933809defc5cb487b2cd6331727d07cb104148ec23",
+      "bundle_sha256": "fa52d4f9ccc8055c69a034933809defc5cb487b2cd6331727d07cb104148ec23",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/__init__.py",
+      "copied_source_sha256": "5b4bbf05549311ccf85085b8e7b6091ad266a9eb776fb3d265e132f21bba4877",
+      "bundle_sha256": "5b4bbf05549311ccf85085b8e7b6091ad266a9eb776fb3d265e132f21bba4877",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/backbone/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/backbone/__init__.py",
+      "copied_source_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "bundle_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/backbone/afformer.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/backbone/afformer.py",
+      "copied_source_sha256": "e685aa591e75257d5af3f2fd9d0cd5e9046369afd031074cb4543907b71879db",
+      "bundle_sha256": "e685aa591e75257d5af3f2fd9d0cd5e9046369afd031074cb4543907b71879db",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/backbone/swin.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/backbone/swin.py",
+      "copied_source_sha256": "635c15c182571864acb9e60a5d1ce711d7f65089db036fcb90bad914b805bf61",
+      "bundle_sha256": "635c15c182571864acb9e60a5d1ce711d7f65089db036fcb90bad914b805bf61",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/criterion.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/criterion.py",
+      "copied_source_sha256": "b80c583c1dcfc63f9fbdaea3d0509a7908d161fc348aefdbf6746ffff53a88da",
+      "bundle_sha256": "b80c583c1dcfc63f9fbdaea3d0509a7908d161fc348aefdbf6746ffff53a88da",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/matcher.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/matcher.py",
+      "copied_source_sha256": "3e291b1a04aec536a32c277668256749d99e5bfc66b89ef0cd8cd3942046d905",
+      "bundle_sha256": "3e291b1a04aec536a32c277668256749d99e5bfc66b89ef0cd8cd3942046d905",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/meta_arch/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/meta_arch/__init__.py",
+      "copied_source_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "bundle_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/meta_arch/mask_former_head.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/meta_arch/mask_former_head.py",
+      "copied_source_sha256": "6a14db5621f342f850a170a1a800b7fdba32763183d97c5a501288d728e132b8",
+      "bundle_sha256": "6a14db5621f342f850a170a1a800b7fdba32763183d97c5a501288d728e132b8",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/meta_arch/per_pixel_baseline.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/meta_arch/per_pixel_baseline.py",
+      "copied_source_sha256": "bf5724448d01d02c3585fbb70dad40731491b760b849b1206332a610690a43d6",
+      "bundle_sha256": "bf5724448d01d02c3585fbb70dad40731491b760b849b1206332a610690a43d6",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/__init__.py",
+      "copied_source_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "bundle_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/fpn.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/fpn.py",
+      "copied_source_sha256": "38173cb81c02eb9f00cacac13f0377711be0d9a4151d1953519e8eaee8ee3649",
+      "bundle_sha256": "38173cb81c02eb9f00cacac13f0377711be0d9a4151d1953519e8eaee8ee3649",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/msdeformattn.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/msdeformattn.py",
+      "copied_source_sha256": "5f74b9aec139ca23ffc03d9638d8c22a3b3ab4ff9efd144f45ab128e48c69795",
+      "bundle_sha256": "5f74b9aec139ca23ffc03d9638d8c22a3b3ab4ff9efd144f45ab128e48c69795",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/functions/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/functions/__init__.py",
+      "copied_source_sha256": "7415ff520ad22f839a4bb3c5c869b4022b776f2d7ab08df8daf94a3bc64079fd",
+      "bundle_sha256": "7415ff520ad22f839a4bb3c5c869b4022b776f2d7ab08df8daf94a3bc64079fd",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/functions/ms_deform_attn_func.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/functions/ms_deform_attn_func.py",
+      "copied_source_sha256": "cf206cc3c80e07ae71957ee5d3001a5179edf3139efa1e649362593cb1673730",
+      "bundle_sha256": "cf206cc3c80e07ae71957ee5d3001a5179edf3139efa1e649362593cb1673730",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/make.sh",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/make.sh",
+      "copied_source_sha256": "4c5a877daa42baa9f239f3d3924fa1494538b35c264d7128eca4372e99cf1a3a",
+      "bundle_sha256": "4c5a877daa42baa9f239f3d3924fa1494538b35c264d7128eca4372e99cf1a3a",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/modules/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/modules/__init__.py",
+      "copied_source_sha256": "b72cb718272847a052ec5e8caae1095718438fe2e09b94e9b3acff7b3da7d3f0",
+      "bundle_sha256": "b72cb718272847a052ec5e8caae1095718438fe2e09b94e9b3acff7b3da7d3f0",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/modules/ms_deform_attn.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/modules/ms_deform_attn.py",
+      "copied_source_sha256": "e958c034cd2c2695a7141554760ba21ba472ad9a5e0f30f945634a81b91120f5",
+      "bundle_sha256": "e958c034cd2c2695a7141554760ba21ba472ad9a5e0f30f945634a81b91120f5",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/setup.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/setup.py",
+      "copied_source_sha256": "43337887620f7ddc5fd892abaa837c1a4fbdb0fb767c9cfda78a013f80997780",
+      "bundle_sha256": "43337887620f7ddc5fd892abaa837c1a4fbdb0fb767c9cfda78a013f80997780",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/src/cpu/ms_deform_attn_cpu.cpp",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/src/cpu/ms_deform_attn_cpu.cpp",
+      "copied_source_sha256": "d52c782c5793858269d5440249fae6b475f0257e7076b815708d1c4486e72b92",
+      "bundle_sha256": "d52c782c5793858269d5440249fae6b475f0257e7076b815708d1c4486e72b92",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/src/cpu/ms_deform_attn_cpu.h",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/src/cpu/ms_deform_attn_cpu.h",
+      "copied_source_sha256": "ef7a0fb1be1985aecbf6b459a5038d688075ca7802e095b58b1377531c4362ee",
+      "bundle_sha256": "ef7a0fb1be1985aecbf6b459a5038d688075ca7802e095b58b1377531c4362ee",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/src/cuda/ms_deform_attn_cuda.cu",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/src/cuda/ms_deform_attn_cuda.cu",
+      "copied_source_sha256": "9b45778524e75be7696f1fdb3c41564efae162930d5e8f9f89cff74b98167f1c",
+      "bundle_sha256": "23d54d1293a35f0285863f84d02b3d55581c68cec938bcaba5aff4e43deea7f8",
+      "modified": true
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/src/cuda/ms_deform_attn_cuda.h",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/src/cuda/ms_deform_attn_cuda.h",
+      "copied_source_sha256": "402ad3a8815d8ee6baeadb73d80444f3d6d286af46feed8bc50162f9cfde83a0",
+      "bundle_sha256": "402ad3a8815d8ee6baeadb73d80444f3d6d286af46feed8bc50162f9cfde83a0",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/src/cuda/ms_deform_im2col_cuda.cuh",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/src/cuda/ms_deform_im2col_cuda.cuh",
+      "copied_source_sha256": "08d0644c24d46f7d6c9e804c3d42522e06f517da454d9dc29cdc2dcf53ef9dfb",
+      "bundle_sha256": "08d0644c24d46f7d6c9e804c3d42522e06f517da454d9dc29cdc2dcf53ef9dfb",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/src/ms_deform_attn.h",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/src/ms_deform_attn.h",
+      "copied_source_sha256": "0ba60b45502da4152aae2e8f5198803032913e8745f4637598dadb7896a23414",
+      "bundle_sha256": "6dcd4c44d971a5c2c331e1e23f3170c15bd90563626b1126a6c0d22b4ddebbb5",
+      "modified": true
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/src/vision.cpp",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/src/vision.cpp",
+      "copied_source_sha256": "4ed8ff5bcf34126aaeec6d28d8cfc985d7534451c5df6d7bada273ec51676284",
+      "bundle_sha256": "4ed8ff5bcf34126aaeec6d28d8cfc985d7534451c5df6d7bada273ec51676284",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/pixel_decoder/ops/test.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/pixel_decoder/ops/test.py",
+      "copied_source_sha256": "0eae613a37b1a67f52c2a5a56036fa7787bf398e630a1d386b54a4daee591bde",
+      "bundle_sha256": "0eae613a37b1a67f52c2a5a56036fa7787bf398e630a1d386b54a4daee591bde",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/transformer_decoder/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/transformer_decoder/__init__.py",
+      "copied_source_sha256": "71d9e04317bb322ee71fdeaf038efa86655de9b8b1f574446e66d34bb3a69fdb",
+      "bundle_sha256": "71d9e04317bb322ee71fdeaf038efa86655de9b8b1f574446e66d34bb3a69fdb",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/transformer_decoder/mask2former_transformer_decoder.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/transformer_decoder/mask2former_transformer_decoder.py",
+      "copied_source_sha256": "d7c15552c82fe7dddb442aeabdb869e76c3dee8f9b67ce1c23d059923e53dc3d",
+      "bundle_sha256": "d7c15552c82fe7dddb442aeabdb869e76c3dee8f9b67ce1c23d059923e53dc3d",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/transformer_decoder/maskformer_transformer_decoder.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/transformer_decoder/maskformer_transformer_decoder.py",
+      "copied_source_sha256": "ade13045563dda97f632dcceb1c55955ebe73bfdaf4af2d835a9c4c500194f09",
+      "bundle_sha256": "ade13045563dda97f632dcceb1c55955ebe73bfdaf4af2d835a9c4c500194f09",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/transformer_decoder/position_encoding.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/transformer_decoder/position_encoding.py",
+      "copied_source_sha256": "d01a863b4db23c0a0afb6d7ed599c612dc5df43df3cde2f1577876b2616c2217",
+      "bundle_sha256": "d01a863b4db23c0a0afb6d7ed599c612dc5df43df3cde2f1577876b2616c2217",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/modeling/transformer_decoder/transformer.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/modeling/transformer_decoder/transformer.py",
+      "copied_source_sha256": "83d5aee20507bcb809c521cbb8359bf12f8589939cbca6360134f1120147b74c",
+      "bundle_sha256": "83d5aee20507bcb809c521cbb8359bf12f8589939cbca6360134f1120147b74c",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/test_time_augmentation.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/test_time_augmentation.py",
+      "copied_source_sha256": "292cc560a56d8d202f52c578943d346910095bd4c18db25e8a14ea318f3cea9a",
+      "bundle_sha256": "292cc560a56d8d202f52c578943d346910095bd4c18db25e8a14ea318f3cea9a",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/utils/__init__.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/utils/__init__.py",
+      "copied_source_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "bundle_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "modified": false
+    },
+    {
+      "file": "LiPS/mask2former/utils/misc.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/mask2former/utils/misc.py",
+      "copied_source_sha256": "53fc8de4b8f5947fbba0f5a802219c0df1ca0b91133400b7da755cf6a328e672",
+      "bundle_sha256": "53fc8de4b8f5947fbba0f5a802219c0df1ca0b91133400b7da755cf6a328e672",
+      "modified": false
+    },
+    {
+      "file": "LiPS/demo/README.md",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/demo/README.md",
+      "copied_source_sha256": "ea605ada33f6e35ddba5e2b6e50e3d0fbdfe21c1fa4f22e12510d09ca4a044dd",
+      "bundle_sha256": "ea605ada33f6e35ddba5e2b6e50e3d0fbdfe21c1fa4f22e12510d09ca4a044dd",
+      "modified": false
+    },
+    {
+      "file": "LiPS/demo/demo.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/demo/demo.py",
+      "copied_source_sha256": "c1a44bcd203615649cd92dd2d38f29be7034365564353707f6de4f571e168b1b",
+      "bundle_sha256": "c1a44bcd203615649cd92dd2d38f29be7034365564353707f6de4f571e168b1b",
+      "modified": false
+    },
+    {
+      "file": "LiPS/demo/predictor.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/demo/predictor.py",
+      "copied_source_sha256": "442764ada31744fe9b372dff68d1daf802c815c4312f961fa02e779eba3f22d4",
+      "bundle_sha256": "442764ada31744fe9b372dff68d1daf802c815c4312f961fa02e779eba3f22d4",
+      "modified": false
+    },
+    {
+      "file": "LiPS/train_net.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/train_net.py",
+      "copied_source_sha256": "8cb8ec6e6476e9ea3dddc4f8334295bd67bc7cf7798b6a3c089e23d6de0a657a",
+      "bundle_sha256": "8cb8ec6e6476e9ea3dddc4f8334295bd67bc7cf7798b6a3c089e23d6de0a657a",
+      "modified": false
+    },
+    {
+      "file": "LiPS/LICENSE",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/LICENSE",
+      "copied_source_sha256": "99566a874d9decd98dc3cea026c314ad255d8798d7d51e121fe1413f4d2750bb",
+      "bundle_sha256": "99566a874d9decd98dc3cea026c314ad255d8798d7d51e121fe1413f4d2750bb",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/main.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/main.py",
+      "copied_source_sha256": "a5d69a37ebc850a42d8ff52a2ceaf376e38a55a8dd1f52dc180596627cb38e70",
+      "bundle_sha256": "a5d69a37ebc850a42d8ff52a2ceaf376e38a55a8dd1f52dc180596627cb38e70",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/training/__init__.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/training/__init__.py",
+      "copied_source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/training/lightning_module.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/training/lightning_module.py",
+      "copied_source_sha256": "9bc1aa3ca633ca4e98efed28bc08231ee7705073d2cf1da597eec062e5606386",
+      "bundle_sha256": "9bc1aa3ca633ca4e98efed28bc08231ee7705073d2cf1da597eec062e5606386",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/training/mask_classification_instance.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/training/mask_classification_instance.py",
+      "copied_source_sha256": "955ceb88151e10c874548cfdb76cdd136132fd68d7190a1d3ea5ee659f7194c9",
+      "bundle_sha256": "955ceb88151e10c874548cfdb76cdd136132fd68d7190a1d3ea5ee659f7194c9",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/training/mask_classification_loss.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/training/mask_classification_loss.py",
+      "copied_source_sha256": "95ab927e6c69f09e2b040bde7ba1bd0ea2428216c3f17d2627233b189f9586ef",
+      "bundle_sha256": "95ab927e6c69f09e2b040bde7ba1bd0ea2428216c3f17d2627233b189f9586ef",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/training/mask_classification_panoptic.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/training/mask_classification_panoptic.py",
+      "copied_source_sha256": "6282b2bc56a3870fad0db7395ea364e32485169b55cc8fc69366edd3e75f42ea",
+      "bundle_sha256": "6282b2bc56a3870fad0db7395ea364e32485169b55cc8fc69366edd3e75f42ea",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/training/mask_classification_semantic.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/training/mask_classification_semantic.py",
+      "copied_source_sha256": "4e0053324ed7590785fec4fe5beb96f2260caf2026f5c707947a42b52b13d3b3",
+      "bundle_sha256": "4e0053324ed7590785fec4fe5beb96f2260caf2026f5c707947a42b52b13d3b3",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/training/two_stage_warmup_poly_schedule.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/training/two_stage_warmup_poly_schedule.py",
+      "copied_source_sha256": "902f266e1048e5bc460742c3ee0d0a55e18a662f2e4b3be0cd702dd8ff9f9794",
+      "bundle_sha256": "902f266e1048e5bc460742c3ee0d0a55e18a662f2e4b3be0cd702dd8ff9f9794",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/datasets/__init__.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/datasets/__init__.py",
+      "copied_source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/datasets/ade20k_panoptic.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/datasets/ade20k_panoptic.py",
+      "copied_source_sha256": "eac54387ef8181b99619bfa4bd89edd2ba4035d6f133ff5205792da5782f1f71",
+      "bundle_sha256": "eac54387ef8181b99619bfa4bd89edd2ba4035d6f133ff5205792da5782f1f71",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/datasets/ade20k_semantic.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/datasets/ade20k_semantic.py",
+      "copied_source_sha256": "4d83aea54f6a046f2b9a4cdb66197146dce11ce07bfb77e9eb263c29b08a4bc7",
+      "bundle_sha256": "4d83aea54f6a046f2b9a4cdb66197146dce11ce07bfb77e9eb263c29b08a4bc7",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/datasets/cityscapes_semantic.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/datasets/cityscapes_semantic.py",
+      "copied_source_sha256": "f0babbd305bc2b7ece0d3d31143fbec79ded6b504ae53a75a2457814da80a478",
+      "bundle_sha256": "f0babbd305bc2b7ece0d3d31143fbec79ded6b504ae53a75a2457814da80a478",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/datasets/coco_instance.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/datasets/coco_instance.py",
+      "copied_source_sha256": "b410e927fa36d19ef74ecd92aed5b1076ca651c3642fea1af2c648f0a38e9949",
+      "bundle_sha256": "b410e927fa36d19ef74ecd92aed5b1076ca651c3642fea1af2c648f0a38e9949",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/datasets/coco_panoptic.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/datasets/coco_panoptic.py",
+      "copied_source_sha256": "aff38662417c9d8b9efc99e24fe79578732026090391fb766597287f76306fd7",
+      "bundle_sha256": "aff38662417c9d8b9efc99e24fe79578732026090391fb766597287f76306fd7",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/datasets/dataset.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/datasets/dataset.py",
+      "copied_source_sha256": "0d538c4c15eb8734461868259fe8e85068f24cab33af4f2498f2045b9251ecd0",
+      "bundle_sha256": "0d538c4c15eb8734461868259fe8e85068f24cab33af4f2498f2045b9251ecd0",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/datasets/lightning_data_module.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/datasets/lightning_data_module.py",
+      "copied_source_sha256": "fea768cb9eb5d17d19a8a6953ad4886b3e9ced57731d001895d941ca115d39f8",
+      "bundle_sha256": "fea768cb9eb5d17d19a8a6953ad4886b3e9ced57731d001895d941ca115d39f8",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/datasets/transforms.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/datasets/transforms.py",
+      "copied_source_sha256": "3b5643beb17d15f1370a652de9cc1070f0803481034767db10a3f3f604aa78f7",
+      "bundle_sha256": "3b5643beb17d15f1370a652de9cc1070f0803481034767db10a3f3f604aa78f7",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/LICENSE",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/LICENSE",
+      "copied_source_sha256": "0299d15a2f1a7f03c2577fecb7bac793ac558a29e89bec9f6bddf29c850a2812",
+      "bundle_sha256": "0299d15a2f1a7f03c2577fecb7bac793ac558a29e89bec9f6bddf29c850a2812",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/__init__.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/__init__.py",
+      "copied_source_sha256": "cd27788854fb1b184cd0c6114875f3661351b1c2a0ef73c641cb476549e23bad",
+      "bundle_sha256": "cd27788854fb1b184cd0c6114875f3661351b1c2a0ef73c641cb476549e23bad",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/config.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/config.py",
+      "copied_source_sha256": "00145fb3db95dd76b7bea329ea0879c9e26b8d00bc6d736ddc15a8ed30fe8cd4",
+      "bundle_sha256": "00145fb3db95dd76b7bea329ea0879c9e26b8d00bc6d736ddc15a8ed30fe8cd4",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/criterion_videomt.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/criterion_videomt.py",
+      "copied_source_sha256": "9d83e994bd36e086be39a9701c15427d0f623e2ab017b2a6a95689b83e347e2b",
+      "bundle_sha256": "9d83e994bd36e086be39a9701c15427d0f623e2ab017b2a6a95689b83e347e2b",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/__init__.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/__init__.py",
+      "copied_source_sha256": "6f2849b5a1fb7eeabcf6f5566f28692c1b640bdf114a3391759da90b8a429ff7",
+      "bundle_sha256": "6f2849b5a1fb7eeabcf6f5566f28692c1b640bdf114a3391759da90b8a429ff7",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/augmentation.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/augmentation.py",
+      "copied_source_sha256": "a6c6eb7d92818d56a1bfd71adc6dc81aac49d299894b3e5da08848b6b4055063",
+      "bundle_sha256": "a6c6eb7d92818d56a1bfd71adc6dc81aac49d299894b3e5da08848b6b4055063",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/build.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/build.py",
+      "copied_source_sha256": "41ade44075c4faec2600ed37a9f8b4abdcb74b5504a15dec9002f944060435c3",
+      "bundle_sha256": "41ade44075c4faec2600ed37a9f8b4abdcb74b5504a15dec9002f944060435c3",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/combined_loader.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/combined_loader.py",
+      "copied_source_sha256": "bac352dfd52f35ad40793e32718aae7e0b87abaf234e34d60690bd4f5901ef1f",
+      "bundle_sha256": "bac352dfd52f35ad40793e32718aae7e0b87abaf234e34d60690bd4f5901ef1f",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/dataset_mapper.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/dataset_mapper.py",
+      "copied_source_sha256": "d58df3c76eed718da30f49e2e610476ce257fba16cac4cbf20e72aeed7f90c30",
+      "bundle_sha256": "d58df3c76eed718da30f49e2e610476ce257fba16cac4cbf20e72aeed7f90c30",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/dataset_mapper_vps.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/dataset_mapper_vps.py",
+      "copied_source_sha256": "ab20d31180f5922f8cfbae73cd3a8bc03da052aeee5c16d75bc2bcc11196b89d",
+      "bundle_sha256": "ab20d31180f5922f8cfbae73cd3a8bc03da052aeee5c16d75bc2bcc11196b89d",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/dataset_mapper_vss.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/dataset_mapper_vss.py",
+      "copied_source_sha256": "a6b523cd96d3bdad1929b35852a31d6f86874974ff9775f47bef7f444a4b52c7",
+      "bundle_sha256": "a6b523cd96d3bdad1929b35852a31d6f86874974ff9775f47bef7f444a4b52c7",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/datasets/__init__.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/datasets/__init__.py",
+      "copied_source_sha256": "a1ded37082973ecab1f673ca50305e383eae5795fb2950de16356c48aef61cae",
+      "bundle_sha256": "a1ded37082973ecab1f673ca50305e383eae5795fb2950de16356c48aef61cae",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/datasets/builtin.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/datasets/builtin.py",
+      "copied_source_sha256": "e97047e95b3f652d4e364328e642206170e302f7e950d5438e0f48f93f653aa9",
+      "bundle_sha256": "e97047e95b3f652d4e364328e642206170e302f7e950d5438e0f48f93f653aa9",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/datasets/vps.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/datasets/vps.py",
+      "copied_source_sha256": "5b25e1f8ba84a572246e4e6f0f770fb88f92705234b7d7920513a4942b2f0b71",
+      "bundle_sha256": "5b25e1f8ba84a572246e4e6f0f770fb88f92705234b7d7920513a4942b2f0b71",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/datasets/vss.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/datasets/vss.py",
+      "copied_source_sha256": "52da090235009aaa6f8f799f60cad15d1f298af72bb8752749ecfa5f9820adee",
+      "bundle_sha256": "52da090235009aaa6f8f799f60cad15d1f298af72bb8752749ecfa5f9820adee",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/datasets/ytvis.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/datasets/ytvis.py",
+      "copied_source_sha256": "ee01d38332ee051ac1763986dcf4395b2727bb09e659e2c9e60a448d6bc2bb8e",
+      "bundle_sha256": "ee01d38332ee051ac1763986dcf4395b2727bb09e659e2c9e60a448d6bc2bb8e",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/datasets/ytvis_api/__init__.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/datasets/ytvis_api/__init__.py",
+      "copied_source_sha256": "bdf9ed7bb01a56feb72cd80f7bc9a16cafc4ba9d25f76283555843e4f9050811",
+      "bundle_sha256": "bdf9ed7bb01a56feb72cd80f7bc9a16cafc4ba9d25f76283555843e4f9050811",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/datasets/ytvis_api/ytvos.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/datasets/ytvis_api/ytvos.py",
+      "copied_source_sha256": "7b47ab38c10624bfb0c3456821f54d12a9640798117c068ebafc02db990520a4",
+      "bundle_sha256": "7b47ab38c10624bfb0c3456821f54d12a9640798117c068ebafc02db990520a4",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/datasets/ytvis_api/ytvoseval.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/datasets/ytvis_api/ytvoseval.py",
+      "copied_source_sha256": "ed1cd768f4e902318d7655f8cdc31aaf5518659c346dbda02f729553371dc96a",
+      "bundle_sha256": "ed1cd768f4e902318d7655f8cdc31aaf5518659c346dbda02f729553371dc96a",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/dynamic_evaluation.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/dynamic_evaluation.py",
+      "copied_source_sha256": "461a8a676fe1e738a0ad1ac32f97232c35211d02a066bca30bfd3d0ee03a23ec",
+      "bundle_sha256": "461a8a676fe1e738a0ad1ac32f97232c35211d02a066bca30bfd3d0ee03a23ec",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/dynamic_targets.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/dynamic_targets.py",
+      "copied_source_sha256": "90efc2415786ea49da32a315868d8c31b6fcb39c4d1682825145b9d92fb139d8",
+      "bundle_sha256": "90efc2415786ea49da32a315868d8c31b6fcb39c4d1682825145b9d92fb139d8",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/utils.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/utils.py",
+      "copied_source_sha256": "0dcc3015b469db53c427d8533c0b158f297737918b3757c44e9b78f82f6ea2b5",
+      "bundle_sha256": "0dcc3015b469db53c427d8533c0b158f297737918b3757c44e9b78f82f6ea2b5",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/vps_eval.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/vps_eval.py",
+      "copied_source_sha256": "0425be6859cee522e31cea375ad4fa4c311ea41af3c33aa6aa86bac55d36b1c2",
+      "bundle_sha256": "0425be6859cee522e31cea375ad4fa4c311ea41af3c33aa6aa86bac55d36b1c2",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/vss_eval.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/vss_eval.py",
+      "copied_source_sha256": "31a2e58e8eb6b8621fe0ab5590cf9836a7525bd627d7c0771f6813973ca28ccd",
+      "bundle_sha256": "31a2e58e8eb6b8621fe0ab5590cf9836a7525bd627d7c0771f6813973ca28ccd",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/data_video/ytvis_eval.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/data_video/ytvis_eval.py",
+      "copied_source_sha256": "de77d3a3d744210c548c93510d195fadaacf05b3969e96e3e0b16c821cdf6c4e",
+      "bundle_sha256": "de77d3a3d744210c548c93510d195fadaacf05b3969e96e3e0b16c821cdf6c4e",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/modeling/__init__.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/modeling/__init__.py",
+      "copied_source_sha256": "83e13829a7c9d00c59f48209e97577322f7b50d0f109dcb50693fe837b4893c4",
+      "bundle_sha256": "83e13829a7c9d00c59f48209e97577322f7b50d0f109dcb50693fe837b4893c4",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/modeling/backbone/__init__.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/modeling/backbone/__init__.py",
+      "copied_source_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "bundle_sha256": "1f45f6a979b53c81ac85894aae6f474f070379b5619abd6ce74204188f97bbf3",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/modeling/backbone/scale_block.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/modeling/backbone/scale_block.py",
+      "copied_source_sha256": "1aa639121b83ff05fd563682ba8029744ea8780917b1d51fdc3fd766db52eb7c",
+      "bundle_sha256": "1aa639121b83ff05fd563682ba8029744ea8780917b1d51fdc3fd766db52eb7c",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/modeling/backbone/videomt.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/modeling/backbone/videomt.py",
+      "copied_source_sha256": "c9edf1a40c5e9cce14ef0658a7f606b01e568cf6ea16b5e8e730dd082fe2710c",
+      "bundle_sha256": "c9edf1a40c5e9cce14ef0658a7f606b01e568cf6ea16b5e8e730dd082fe2710c",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/modeling/backbone/vit.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/modeling/backbone/vit.py",
+      "copied_source_sha256": "d042d77d97f14935d494e83d897a178d5fc1c53cd4f20c80aef5ae3b6562cc92",
+      "bundle_sha256": "d042d77d97f14935d494e83d897a178d5fc1c53cd4f20c80aef5ae3b6562cc92",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/modeling/matcher.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/modeling/matcher.py",
+      "copied_source_sha256": "47925acf6af9348df596480c3c9e77cafdf8af25f7a2ac10d831c0cf6e57918d",
+      "bundle_sha256": "47925acf6af9348df596480c3c9e77cafdf8af25f7a2ac10d831c0cf6e57918d",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/modeling/two_stage_warmup_poly_schedule.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/modeling/two_stage_warmup_poly_schedule.py",
+      "copied_source_sha256": "d4d035ed67693c0cec54203f76f7c1eaa44905bf5348b25c20b06381b13ca88c",
+      "bundle_sha256": "d4d035ed67693c0cec54203f76f7c1eaa44905bf5348b25c20b06381b13ca88c",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/utils/memory.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/utils/memory.py",
+      "copied_source_sha256": "706006b68a581e0ca6bc51e8d5716c8317f971c7daf5112f3a3aae44117691e8",
+      "bundle_sha256": "706006b68a581e0ca6bc51e8d5716c8317f971c7daf5112f3a3aae44117691e8",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/utils/misc.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/utils/misc.py",
+      "copied_source_sha256": "53fc8de4b8f5947fbba0f5a802219c0df1ca0b91133400b7da755cf6a328e672",
+      "bundle_sha256": "53fc8de4b8f5947fbba0f5a802219c0df1ca0b91133400b7da755cf6a328e672",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/videomt/videomt.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/videomt/videomt.py",
+      "copied_source_sha256": "ae975a8af471f7039b6ae5c835b05e8ff5c6f11673bfce49c5f657bfce4fe43c",
+      "bundle_sha256": "ae975a8af471f7039b6ae5c835b05e8ff5c6f11673bfce49c5f657bfce4fe43c",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/utils/eval_miou_vspw.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/utils/eval_miou_vspw.py",
+      "copied_source_sha256": "fc5e0fd4f0bfe5f14fdba9110f9e81b03eb1ca6e5f69c387ab1a8ae593948471",
+      "bundle_sha256": "fc5e0fd4f0bfe5f14fdba9110f9e81b03eb1ca6e5f69c387ab1a8ae593948471",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/utils/eval_stq_vspw.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/utils/eval_stq_vspw.py",
+      "copied_source_sha256": "7155fd6cd49ad25a705057cbe8e2993531ceb85666834e2f52ebd2f2f960e6a1",
+      "bundle_sha256": "7155fd6cd49ad25a705057cbe8e2993531ceb85666834e2f52ebd2f2f960e6a1",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/utils/eval_vc_vspw.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/utils/eval_vc_vspw.py",
+      "copied_source_sha256": "acdc8b1404e2e28a83e311b15e27cd8cadc9a9b3eecc1967bc64fe1ed8a492fd",
+      "bundle_sha256": "acdc8b1404e2e28a83e311b15e27cd8cadc9a9b3eecc1967bc64fe1ed8a492fd",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/utils/eval_vpq_vspw.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/utils/eval_vpq_vspw.py",
+      "copied_source_sha256": "0472a166c2c0e46dc3741d36444199541d26d700658c2b6db2acb66040d782a8",
+      "bundle_sha256": "0472a166c2c0e46dc3741d36444199541d26d700658c2b6db2acb66040d782a8",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/utils/gen_VIPSeg_test_json.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/utils/gen_VIPSeg_test_json.py",
+      "copied_source_sha256": "d375ba8c6e3374be2df8e776c9deef662c1291ad325bb9cc3d6480069419b1bb",
+      "bundle_sha256": "d375ba8c6e3374be2df8e776c9deef662c1291ad325bb9cc3d6480069419b1bb",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/utils/segmentation_and_tracking_quality.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/utils/segmentation_and_tracking_quality.py",
+      "copied_source_sha256": "330f922f73139466715d88cd86284e748884b202e36b26fe180cdec575204132",
+      "bundle_sha256": "330f922f73139466715d88cd86284e748884b202e36b26fe180cdec575204132",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/utils/yt2021_eval.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/utils/yt2021_eval.py",
+      "copied_source_sha256": "e7c892e1598b970ed3786a3888846fa31f42467e66f457bf5667d24e768970e0",
+      "bundle_sha256": "e7c892e1598b970ed3786a3888846fa31f42467e66f457bf5667d24e768970e0",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/utils/yt2022_evaluate.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/utils/yt2022_evaluate.py",
+      "copied_source_sha256": "4cbeb0177eeb59cdc514fe071df7aeab27cff5debba18d507ebc88cf839ffeb0",
+      "bundle_sha256": "4cbeb0177eeb59cdc514fe071df7aeab27cff5debba18d507ebc88cf839ffeb0",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/utils/ytvis_api/__init__.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/utils/ytvis_api/__init__.py",
+      "copied_source_sha256": "bdf9ed7bb01a56feb72cd80f7bc9a16cafc4ba9d25f76283555843e4f9050811",
+      "bundle_sha256": "bdf9ed7bb01a56feb72cd80f7bc9a16cafc4ba9d25f76283555843e4f9050811",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/utils/ytvis_api/ytvos.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/utils/ytvis_api/ytvos.py",
+      "copied_source_sha256": "7b47ab38c10624bfb0c3456821f54d12a9640798117c068ebafc02db990520a4",
+      "bundle_sha256": "7b47ab38c10624bfb0c3456821f54d12a9640798117c068ebafc02db990520a4",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/utils/ytvis_api/ytvoseval.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/utils/ytvis_api/ytvoseval.py",
+      "copied_source_sha256": "c502239b65dc10ee23883b92a534f964bd8714da8ae83c1ee8f4530b589eeafe",
+      "bundle_sha256": "c502239b65dc10ee23883b92a534f964bd8714da8ae83c1ee8f4530b589eeafe",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-base/dyneomt_online_vitb.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-base/dyneomt_online_vitb.yaml",
+      "copied_source_sha256": "df76fff69a6655240b3367dbf8897284939fb842b0e05403b00a43d500b23a58",
+      "bundle_sha256": "df76fff69a6655240b3367dbf8897284939fb842b0e05403b00a43d500b23a58",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-large/dyneomt_online_vitl.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-large/dyneomt_online_vitl.yaml",
+      "copied_source_sha256": "338e54e5e009a82ab1fc3f8acf14b179245ff717bb9c11872bc451443842bdb5",
+      "bundle_sha256": "338e54e5e009a82ab1fc3f8acf14b179245ff717bb9c11872bc451443842bdb5",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-large/dyneomt_online_vitl_ablation_frozen_linear.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-large/dyneomt_online_vitl_ablation_frozen_linear.yaml",
+      "copied_source_sha256": "2d70ee5f1478ae0dc0890b7fb1352dc8280840a505844b1e2baded3e80e225e5",
+      "bundle_sha256": "2d70ee5f1478ae0dc0890b7fb1352dc8280840a505844b1e2baded3e80e225e5",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-large/dyneomt_online_vitl_ablation_frozen_mlp.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-large/dyneomt_online_vitl_ablation_frozen_mlp.yaml",
+      "copied_source_sha256": "adf97e97a7267da92b0ee7cef6a9a3205b8a305ac784ab07cc1a0382d61c2194",
+      "bundle_sha256": "adf97e97a7267da92b0ee7cef6a9a3205b8a305ac784ab07cc1a0382d61c2194",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-large/dyneomt_online_vitl_ablation_frozen_mlp_no_query_propagation.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-large/dyneomt_online_vitl_ablation_frozen_mlp_no_query_propagation.yaml",
+      "copied_source_sha256": "3d53ed64b268080c987ce7d768fb0a6fef18c51cb5a6425c1ad4c3529ef6f65f",
+      "bundle_sha256": "3d53ed64b268080c987ce7d768fb0a6fef18c51cb5a6425c1ad4c3529ef6f65f",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-small/dyneomt_online_vits.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-small/dyneomt_online_vits.yaml",
+      "copied_source_sha256": "bddae10ecb322de363229acb5013adbb86b40acd2d4cd4e2923ba3b0a1524375",
+      "bundle_sha256": "bddae10ecb322de363229acb5013adbb86b40acd2d4cd4e2923ba3b0a1524375",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/VSPW/dinov2/vit-base/dyneomt_online_vitb.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/VSPW/dinov2/vit-base/dyneomt_online_vitb.yaml",
+      "copied_source_sha256": "69e6c973929adfcbd2d9abf5293a11a67ea7d98d8924d66e2d1380b4153b7c5e",
+      "bundle_sha256": "69e6c973929adfcbd2d9abf5293a11a67ea7d98d8924d66e2d1380b4153b7c5e",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/VSPW/dinov2/vit-large/dyneomt_online_vitl.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/VSPW/dinov2/vit-large/dyneomt_online_vitl.yaml",
+      "copied_source_sha256": "f88faa702f264779ce98244f0dae2c6d75eff0a88ef7c774990b42eda7003239",
+      "bundle_sha256": "f88faa702f264779ce98244f0dae2c6d75eff0a88ef7c774990b42eda7003239",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/VSPW/dinov2/vit-small/dyneomt_online_vits.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/VSPW/dinov2/vit-small/dyneomt_online_vits.yaml",
+      "copied_source_sha256": "329ecf8f70fa355c666aa7939f39fd5b83759ccf5268a2109dc602a5a9d489b0",
+      "bundle_sha256": "329ecf8f70fa355c666aa7939f39fd5b83759ccf5268a2109dc602a5a9d489b0",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/ovis/dinov2/vit-base/dyneomt_online_vitb.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/ovis/dinov2/vit-base/dyneomt_online_vitb.yaml",
+      "copied_source_sha256": "7e3c5c1658d5e69f451f0361bf10186e3f095db89b17b0162364118f6a3e4666",
+      "bundle_sha256": "7e3c5c1658d5e69f451f0361bf10186e3f095db89b17b0162364118f6a3e4666",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/ovis/dinov2/vit-large/dyneomt_online_vitl.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/ovis/dinov2/vit-large/dyneomt_online_vitl.yaml",
+      "copied_source_sha256": "bdfadd00df5a663fe8748833e2aeeccd13c6ec7a0eb5022329a659212212e6d4",
+      "bundle_sha256": "bdfadd00df5a663fe8748833e2aeeccd13c6ec7a0eb5022329a659212212e6d4",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/ovis/dinov2/vit-small/dyneomt_online_vits.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/ovis/dinov2/vit-small/dyneomt_online_vits.yaml",
+      "copied_source_sha256": "f9fafe6ed10c660ab6fb0ad6783c77bc0f2cef9eb4f8dabccc93fba8d631f953",
+      "bundle_sha256": "f9fafe6ed10c660ab6fb0ad6783c77bc0f2cef9eb4f8dabccc93fba8d631f953",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/ytvis22/dinov2/vit-base/dyneomt_online_vitb.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/ytvis22/dinov2/vit-base/dyneomt_online_vitb.yaml",
+      "copied_source_sha256": "dbc2656dfdd6f8cf6b4ded09a29044f1f127f021c62d5d73b820085e621c4036",
+      "bundle_sha256": "dbc2656dfdd6f8cf6b4ded09a29044f1f127f021c62d5d73b820085e621c4036",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/ytvis22/dinov2/vit-large/dyneomt_online_vitl.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/ytvis22/dinov2/vit-large/dyneomt_online_vitl.yaml",
+      "copied_source_sha256": "213393a8a5e5424a71c52307a89420fddc6dbb945e4a84f2140b3b9db092811e",
+      "bundle_sha256": "213393a8a5e5424a71c52307a89420fddc6dbb945e4a84f2140b3b9db092811e",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/DynEoMT/ytvis22/dinov2/vit-small/dyneomt_online_vits.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/DynEoMT/ytvis22/dinov2/vit-small/dyneomt_online_vits.yaml",
+      "copied_source_sha256": "0c81ae6282a28017b119b4c2857ae504af8f554762e5a1d90189c284e8eea4e6",
+      "bundle_sha256": "0c81ae6282a28017b119b4c2857ae504af8f554762e5a1d90189c284e8eea4e6",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/VIPSeg/Base-VIPSeg-VideoInstanceSegmentation.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/VIPSeg/Base-VIPSeg-VideoInstanceSegmentation.yaml",
+      "copied_source_sha256": "713fea69f645880603178d2e779fa9250845c8906ab9e0de55b8b8a57eef811e",
+      "bundle_sha256": "713fea69f645880603178d2e779fa9250845c8906ab9e0de55b8b8a57eef811e",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/VIPSeg/Base_R50_720p.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/VIPSeg/Base_R50_720p.yaml",
+      "copied_source_sha256": "d818fbcdbcca6c68e9ae86741b0da8b01423084b0f375005bb7963a6e7b370c5",
+      "bundle_sha256": "d818fbcdbcca6c68e9ae86741b0da8b01423084b0f375005bb7963a6e7b370c5",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/VIPSeg/dinov2/vit-base/videomt_online_vitb.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/VIPSeg/dinov2/vit-base/videomt_online_vitb.yaml",
+      "copied_source_sha256": "0b08f55d8186c326acec8ce2dcbca7904ef6ef11a0f383bd7cf93804f44973c2",
+      "bundle_sha256": "0b08f55d8186c326acec8ce2dcbca7904ef6ef11a0f383bd7cf93804f44973c2",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/VIPSeg/dinov2/vit-large/videomt_online_vitl.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/VIPSeg/dinov2/vit-large/videomt_online_vitl.yaml",
+      "copied_source_sha256": "2e1e2a2731f7fc56cffa0f8922919f74f602b63e0a0bf7420c80f0d1cfa52f8c",
+      "bundle_sha256": "2e1e2a2731f7fc56cffa0f8922919f74f602b63e0a0bf7420c80f0d1cfa52f8c",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/VIPSeg/dinov2/vit-small/videomt_online_vits.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/VIPSeg/dinov2/vit-small/videomt_online_vits.yaml",
+      "copied_source_sha256": "6fe8ac159ee12907c8a40ffcbde9590e1600a0d53d01ec8fc08dd244a98b660f",
+      "bundle_sha256": "6fe8ac159ee12907c8a40ffcbde9590e1600a0d53d01ec8fc08dd244a98b660f",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/VSPW/Base-VSPW-VideoInstanceSegmentation.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/VSPW/Base-VSPW-VideoInstanceSegmentation.yaml",
+      "copied_source_sha256": "caa234866e720333f25ef9e28f6196f1093a5377cf1b40b79f7742b614757177",
+      "bundle_sha256": "caa234866e720333f25ef9e28f6196f1093a5377cf1b40b79f7742b614757177",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/VSPW/Base_R50_480p.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/VSPW/Base_R50_480p.yaml",
+      "copied_source_sha256": "26f778df89c25b084abf55ac7530c4b37cd0aa0d358aa28dd557dd1183b741d2",
+      "bundle_sha256": "26f778df89c25b084abf55ac7530c4b37cd0aa0d358aa28dd557dd1183b741d2",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/VSPW/Base_R50_720p.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/VSPW/Base_R50_720p.yaml",
+      "copied_source_sha256": "e281ffbccf80891740a5fc254184f6b278e1a57933accef6b24ac2475ed51704",
+      "bundle_sha256": "e281ffbccf80891740a5fc254184f6b278e1a57933accef6b24ac2475ed51704",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/VSPW/dinov2/vit-base/videomt_online_vitb.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/VSPW/dinov2/vit-base/videomt_online_vitb.yaml",
+      "copied_source_sha256": "8148996efd50902b0e0132bd8bb96b68d9cfb2eae0d564cfb1d30d0028c8a322",
+      "bundle_sha256": "8148996efd50902b0e0132bd8bb96b68d9cfb2eae0d564cfb1d30d0028c8a322",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/VSPW/dinov2/vit-large/videomt_online_vitl.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/VSPW/dinov2/vit-large/videomt_online_vitl.yaml",
+      "copied_source_sha256": "34ce026f0e948dbbce5578eb6526e0f280b343bd0b057e203c2f82a87b9b274b",
+      "bundle_sha256": "34ce026f0e948dbbce5578eb6526e0f280b343bd0b057e203c2f82a87b9b274b",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/VSPW/dinov2/vit-small/videomt_online_vits.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/VSPW/dinov2/vit-small/videomt_online_vits.yaml",
+      "copied_source_sha256": "9a389901d237055e610c443060010e5582929b8306f3c3c6115327528a1385e6",
+      "bundle_sha256": "9a389901d237055e610c443060010e5582929b8306f3c3c6115327528a1385e6",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/ovis/Base-OVIS-VideoInstanceSegmentation.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/ovis/Base-OVIS-VideoInstanceSegmentation.yaml",
+      "copied_source_sha256": "770718b55bc54f1c6a592a2ae0af19adba6061f6230f7cc98ebf9bcf72b358cf",
+      "bundle_sha256": "770718b55bc54f1c6a592a2ae0af19adba6061f6230f7cc98ebf9bcf72b358cf",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/ovis/Base_R50.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/ovis/Base_R50.yaml",
+      "copied_source_sha256": "7b28a4141d18f24b56e01a9dd34774b7bde051cd96669a08a2d0c823aa2f2e44",
+      "bundle_sha256": "7b28a4141d18f24b56e01a9dd34774b7bde051cd96669a08a2d0c823aa2f2e44",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/ovis/dinov2/vit-base/videomt_online_vitb.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/ovis/dinov2/vit-base/videomt_online_vitb.yaml",
+      "copied_source_sha256": "3ebf91c29912abae1ea5aea79a545fd89451a683a2b3ee56db7ed5e66a8bfcc6",
+      "bundle_sha256": "3ebf91c29912abae1ea5aea79a545fd89451a683a2b3ee56db7ed5e66a8bfcc6",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/ovis/dinov2/vit-large/videomt_online_vitl.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/ovis/dinov2/vit-large/videomt_online_vitl.yaml",
+      "copied_source_sha256": "edfe4f8c46b059a68a53cccb6391d6b6b894a5eb7eeca8a50a844265e536a397",
+      "bundle_sha256": "edfe4f8c46b059a68a53cccb6391d6b6b894a5eb7eeca8a50a844265e536a397",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/ovis/dinov2/vit-small/videomt_online_vits.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/ovis/dinov2/vit-small/videomt_online_vits.yaml",
+      "copied_source_sha256": "01bdc5e82ae385fcc7de5f9110a82d85b937fd2407e64ba14407d4c5f5e58387",
+      "bundle_sha256": "01bdc5e82ae385fcc7de5f9110a82d85b937fd2407e64ba14407d4c5f5e58387",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/ytvis22/Base-YouTubeVIS-VideoInstanceSegmentation.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/ytvis22/Base-YouTubeVIS-VideoInstanceSegmentation.yaml",
+      "copied_source_sha256": "6a3e9813e14a2606af13f58cf9fed66843ac49d0666caa20a065447e82a598e3",
+      "bundle_sha256": "6a3e9813e14a2606af13f58cf9fed66843ac49d0666caa20a065447e82a598e3",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/ytvis22/Base_R50.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/ytvis22/Base_R50.yaml",
+      "copied_source_sha256": "a2d84de45311a993e59b88ac0593ae6a510a078f00277ece8ed7ec2a6aefbad8",
+      "bundle_sha256": "a2d84de45311a993e59b88ac0593ae6a510a078f00277ece8ed7ec2a6aefbad8",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/ytvis22/dinov2/vit-base/videomt_online_vitb.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/ytvis22/dinov2/vit-base/videomt_online_vitb.yaml",
+      "copied_source_sha256": "f1e993737267c88601e3521b28854f3f80b35531daabecfe250220b7f53db265",
+      "bundle_sha256": "f1e993737267c88601e3521b28854f3f80b35531daabecfe250220b7f53db265",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/ytvis22/dinov2/vit-large/videomt_online_vitl.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/ytvis22/dinov2/vit-large/videomt_online_vitl.yaml",
+      "copied_source_sha256": "8b148f7660452f2e413ac8187fc4beee2df2c210d1884a70853fc24c3fc53067",
+      "bundle_sha256": "8b148f7660452f2e413ac8187fc4beee2df2c210d1884a70853fc24c3fc53067",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/configs/VidEoMT/ytvis22/dinov2/vit-small/videomt_online_vits.yaml",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/configs/VidEoMT/ytvis22/dinov2/vit-small/videomt_online_vits.yaml",
+      "copied_source_sha256": "c907261684dec46489cdf463c60042e29d97e00e9c922cbe3b60d26bd1011e26",
+      "bundle_sha256": "c907261684dec46489cdf463c60042e29d97e00e9c922cbe3b60d26bd1011e26",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/tests/test_dynamic_metrics.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/tests/test_dynamic_metrics.py",
+      "copied_source_sha256": "dbaf4f6e15712aae237e9febb27b07ce5a9a284825b985d3456d53af9ae041ce",
+      "bundle_sha256": "dbaf4f6e15712aae237e9febb27b07ce5a9a284825b985d3456d53af9ae041ce",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/tests/test_dynamic_targets.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/tests/test_dynamic_targets.py",
+      "copied_source_sha256": "1a5d02a9f7117b5035bcfba7bddf59c74c97c95684d6019302c6209faba088a6",
+      "bundle_sha256": "1a5d02a9f7117b5035bcfba7bddf59c74c97c95684d6019302c6209faba088a6",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/tests/test_temporal_targets.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/tests/test_temporal_targets.py",
+      "copied_source_sha256": "54585daf7cb15078c2cd881da725374cf032ebfe50bb1b83e8ce2a1df79258ff",
+      "bundle_sha256": "54585daf7cb15078c2cd881da725374cf032ebfe50bb1b83e8ce2a1df79258ff",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/tests/test_visualization.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/tests/test_visualization.py",
+      "copied_source_sha256": "9585efc60de7d5060b78b52b22441e344c049688645501ce15948b679730ac64",
+      "bundle_sha256": "9585efc60de7d5060b78b52b22441e344c049688645501ce15948b679730ac64",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/train_net_video.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/train_net_video.py",
+      "copied_source_sha256": "9aa0a5d865257ecf28c87835132a75abf1368926300bab9b330219152c4a7e5c",
+      "bundle_sha256": "9aa0a5d865257ecf28c87835132a75abf1368926300bab9b330219152c4a7e5c",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/benchmark.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/benchmark.py",
+      "copied_source_sha256": "ee61fdc56f4d6ff9311332988367751b967c6edeecd932abc79e9a10a1c1d75a",
+      "bundle_sha256": "ee61fdc56f4d6ff9311332988367751b967c6edeecd932abc79e9a10a1c1d75a",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/LICENSE",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/LICENSE",
+      "copied_source_sha256": "0299d15a2f1a7f03c2577fecb7bac793ac558a29e89bec9f6bddf29c850a2812",
+      "bundle_sha256": "0299d15a2f1a7f03c2577fecb7bac793ac558a29e89bec9f6bddf29c850a2812",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/datasets/README.md",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/datasets/README.md",
+      "copied_source_sha256": "2b31059a76a5d793fbd9fce7bc2986e01b289e10480ba40c01758535e237b12f",
+      "bundle_sha256": "2b31059a76a5d793fbd9fce7bc2986e01b289e10480ba40c01758535e237b12f",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/datasets/utils/convert_coco2ytvis.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/datasets/utils/convert_coco2ytvis.py",
+      "copied_source_sha256": "ef32e2366b4b3d1fab63525275bf1ea89eb4eb0cc7d177258cdedc1ed44522b8",
+      "bundle_sha256": "ef32e2366b4b3d1fab63525275bf1ea89eb4eb0cc7d177258cdedc1ed44522b8",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/datasets/utils/vipseg_change2_720p.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/datasets/utils/vipseg_change2_720p.py",
+      "copied_source_sha256": "99c77dd29706d0af1131d6d698031e55d42a215f0e054b455cc3bad1b4b73111",
+      "bundle_sha256": "99c77dd29706d0af1131d6d698031e55d42a215f0e054b455cc3bad1b4b73111",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/scripts/dynamic_targets/__init__.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/scripts/dynamic_targets/__init__.py",
+      "copied_source_sha256": "98428c51eee4f2b30254357170cdf447267876e6d2c180d87e0e557367bbb1b3",
+      "bundle_sha256": "98428c51eee4f2b30254357170cdf447267876e6d2c180d87e0e557367bbb1b3",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/scripts/dynamic_targets/datasets.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/scripts/dynamic_targets/datasets.py",
+      "copied_source_sha256": "236ff79619a5e4aff45fba9548578b82067975be7969bae4a762a00d3a277e6b",
+      "bundle_sha256": "236ff79619a5e4aff45fba9548578b82067975be7969bae4a762a00d3a277e6b",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/scripts/dynamic_targets/estimate.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/scripts/dynamic_targets/estimate.py",
+      "copied_source_sha256": "c7dff6fd78a884af74f0a98574fc084dcbf3f6245e5d47ab9fcf5e63613e5fb9",
+      "bundle_sha256": "c7dff6fd78a884af74f0a98574fc084dcbf3f6245e5d47ab9fcf5e63613e5fb9",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/scripts/dynamic_targets/memflow.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/scripts/dynamic_targets/memflow.py",
+      "copied_source_sha256": "9c900059c2d74dbb53f8b3360a8ef4984e626722db1657416f89f07b5288f5ba",
+      "bundle_sha256": "9c900059c2d74dbb53f8b3360a8ef4984e626722db1657416f89f07b5288f5ba",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/scripts/build_dynamic_targets.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/scripts/build_dynamic_targets.py",
+      "copied_source_sha256": "38ce7e32e0c6d422b7e8cd2c55e5a556fd87a046601b0b7236bce1d3b5e7c52c",
+      "bundle_sha256": "38ce7e32e0c6d422b7e8cd2c55e5a556fd87a046601b0b7236bce1d3b5e7c52c",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/scripts/summarize_dynamic_targets.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/scripts/summarize_dynamic_targets.py",
+      "copied_source_sha256": "25779f76ba34db932c272da829bfe905e5b650966a3983268330a413ce54d1fa",
+      "bundle_sha256": "25779f76ba34db932c272da829bfe905e5b650966a3983268330a413ce54d1fa",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/scripts/train_backbone_sweep.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/scripts/train_backbone_sweep.py",
+      "copied_source_sha256": "8ec720c3cf89c70eac5d8262dc015ced0cff97b04e5cf8444ead4e7463bf09cf",
+      "bundle_sha256": "8ec720c3cf89c70eac5d8262dc015ced0cff97b04e5cf8444ead4e7463bf09cf",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/scripts/train_videomt_backbone_sweep.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/scripts/train_videomt_backbone_sweep.py",
+      "copied_source_sha256": "e4804bf57a5affde2112b976fa0e8eaa207bed651555223e83ca4f9974f63109",
+      "bundle_sha256": "e4804bf57a5affde2112b976fa0e8eaa207bed651555223e83ca4f9974f63109",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/scripts/run_jetson_demo.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/scripts/run_jetson_demo.py",
+      "copied_source_sha256": "7c2ab79d2bb032f62939a7bc091831fda346cf963dc68dfd1f5767350b6fee6f",
+      "bundle_sha256": "6037d116ec0a803b83f24c35affd123bff66f91951feb889d0008ba8dd50d784",
+      "modified": true
+    },
+    {
+      "file": "DynEoMT/scripts/benchmark_end_to_end_runtime.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/scripts/benchmark_end_to_end_runtime.py",
+      "copied_source_sha256": "4dd391749c694c88de9f13426dfccc99ac4108a527c1f18bf552c1fb2284d706",
+      "bundle_sha256": "4dd391749c694c88de9f13426dfccc99ac4108a527c1f18bf552c1fb2284d706",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/models/__init__.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/models/__init__.py",
+      "copied_source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/models/ceomt3.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/models/ceomt3.py",
+      "copied_source_sha256": "52883d1533a790490d13d5549694e1a3da15904d0660bb16aab9920abffc66d5",
+      "bundle_sha256": "52883d1533a790490d13d5549694e1a3da15904d0660bb16aab9920abffc66d5",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/models/eomt.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/models/eomt.py",
+      "copied_source_sha256": "4e7b1e384bb441293f764a9616a2d67acc0388c0a1b2d7be024aeb98c648f4cb",
+      "bundle_sha256": "4e7b1e384bb441293f764a9616a2d67acc0388c0a1b2d7be024aeb98c648f4cb",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/models/vit.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/models/vit.py",
+      "copied_source_sha256": "976c46f7ef164e5f5fd924b759707249877e83c108cbd30d4c2eaba160fbee37",
+      "bundle_sha256": "976c46f7ef164e5f5fd924b759707249877e83c108cbd30d4c2eaba160fbee37",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/models/scale_block.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/models/scale_block.py",
+      "copied_source_sha256": "b9a46bf830e9c0d598b7319019d044760cb3929784574f742d9b022d286241f3",
+      "bundle_sha256": "b9a46bf830e9c0d598b7319019d044760cb3929784574f742d9b022d286241f3",
+      "modified": false
+    },
+    {
+      "file": "LiPS/datasets/prepare_ade20k_ins_seg.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/datasets/prepare_ade20k_ins_seg.py",
+      "copied_source_sha256": "870b14809b72b1b68fc298faed61158d03ebdff3722f4a6b41988c82dfe41600",
+      "bundle_sha256": "870b14809b72b1b68fc298faed61158d03ebdff3722f4a6b41988c82dfe41600",
+      "modified": false
+    },
+    {
+      "file": "LiPS/datasets/prepare_coco_semantic_annos_from_panoptic_annos.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/datasets/prepare_coco_semantic_annos_from_panoptic_annos.py",
+      "copied_source_sha256": "63a9f06c7833676fe94a285a28b9dbbd5bb530726148eadb365c0a791c502564",
+      "bundle_sha256": "63a9f06c7833676fe94a285a28b9dbbd5bb530726148eadb365c0a791c502564",
+      "modified": false
+    },
+    {
+      "file": "LiPS/datasets/ade20k_instance_catid_mapping.txt",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/datasets/ade20k_instance_catid_mapping.txt",
+      "copied_source_sha256": "183cc9f84212753d5f251cfb2242599acc895d332ad806cd181a827d2691c3cd",
+      "bundle_sha256": "183cc9f84212753d5f251cfb2242599acc895d332ad806cd181a827d2691c3cd",
+      "modified": false
+    },
+    {
+      "file": "LiPS/datasets/ade20k_instance_imgCatIds.json",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/datasets/ade20k_instance_imgCatIds.json",
+      "copied_source_sha256": "e55bd56bc86b154186da072ef98b6237c453aae13b521215e4cafca67f6675d8",
+      "bundle_sha256": "e55bd56bc86b154186da072ef98b6237c453aae13b521215e4cafca67f6675d8",
+      "modified": false
+    },
+    {
+      "file": "LiPS/datasets/prepare_ade20k_pan_seg.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/datasets/prepare_ade20k_pan_seg.py",
+      "copied_source_sha256": "17776f14ec44650131fdda28233f06e18c3d8bee04375b4206ee1675bf89b292",
+      "bundle_sha256": "17776f14ec44650131fdda28233f06e18c3d8bee04375b4206ee1675bf89b292",
+      "modified": false
+    },
+    {
+      "file": "LiPS/datasets/prepare_ade20k_sem_seg.py",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/datasets/prepare_ade20k_sem_seg.py",
+      "copied_source_sha256": "7d6a6dfe4fc6314716c7a9964edfc08e882b80e9468f666360cb297572378981",
+      "bundle_sha256": "7d6a6dfe4fc6314716c7a9964edfc08e882b80e9468f666360cb297572378981",
+      "modified": false
+    },
+    {
+      "file": "LiPS/datasets/README.md",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/datasets/README.md",
+      "copied_source_sha256": "fed2ec15838200bc4ce4276d1326ec7397e03679f7f112c87bc03b8ce096de28",
+      "bundle_sha256": "fed2ec15838200bc4ce4276d1326ec7397e03679f7f112c87bc03b8ce096de28",
+      "modified": false
+    },
+    {
+      "file": "DynEoMT/scripts/visualize_dyneomt.py",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/scripts/visualize_dyneomt.py",
+      "copied_source_sha256": "6bd354e799cca4bc9a2cb00e2227ee4fc82b8658cf18181158051d5165b6713b",
+      "bundle_sha256": "6bd354e799cca4bc9a2cb00e2227ee4fc82b8658cf18181158051d5165b6713b",
+      "modified": false
+    },
+    {
+      "file": "TokenMask/models/ceomt.py",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/models/ceomt.py",
+      "copied_source_sha256": "aee307203663e0d14566b06a3dc626bd83681ec77d93bfaa9f1f362386bf5ec6",
+      "bundle_sha256": "aee307203663e0d14566b06a3dc626bd83681ec77d93bfaa9f1f362386bf5ec6",
+      "modified": false
+    }
+  ],
+  "tokenmask_runs": {
+    "ade20k_small": "4qz6uqyb",
+    "ade20k_tiny": "7al1rsxh",
+    "ade20k_large": "dbimqvy4"
+  },
+  "adaptations": [
+    "LiPS CUDA extension: modern tensor accessors for PyTorch 2.7",
+    "DynEoMT demo: uint8 before text rendering for OpenCV 5",
+    "LiPS configuration derived from saved run; TokenMask recipes reconstructed from recorded runs",
+    "Dependency files trimmed; TensorRT/ONNX and notebooks omitted"
+  ],
+  "additional_weights_selection": [
+    {
+      "file": "weights/LiPS/ade20k_4levels_best.pth",
+      "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/output/model_0154999.pth",
+      "config": "LiPS/configs/ade20k_4levels.yaml",
+      "key": "model",
+      "tensors": 725,
+      "source_bytes": 237774172,
+      "bytes": 79871065,
+      "sha256": "33b4388b5a4289c7adf82689f686bf63b61ea091b86c0ef8af6e8820019c1a0d",
+      "source_sha256": "1a5b12a480145129b6ecda1feffc5dba38a2bcb74abd8ab394b14e90721b74c2",
+      "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved",
+      "selection": {
+        "dataset": "ADE20K val",
+        "metric": "panoptic_seg/PQ",
+        "value": 36.59289946131759,
+        "iteration": 154999,
+        "selection": "Best logged PQ among the four ADE20K LiPS routing runs (1-4 levels).",
+        "evidence": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/output/metrics.json",
+        "evidence_sha256": "6093ee505bfbf6fd5677370f3d820f8af1ebd14be370026b7676bbf9aca89346"
+      }
+    },
+    {
+      "file": "weights/TokenMask/ade20k_large.pth",
+      "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/dbimqvy4/checkpoints/epoch=159-step=807840.ckpt",
+      "config": "TokenMask/configs/ade20k_large.yaml",
+      "key": "state_dict",
+      "tensors": 356,
+      "source_bytes": 3700094098,
+      "bytes": 1233317193,
+      "sha256": "4c63ad4259e3c631c3b18a1711c753d3bb549bdae80d23ee2efab913295befc6",
+      "source_sha256": "145b6219b23dbb5b346cf7003d1490329dac6ad08f2a441c920a3c9baed72a0b",
+      "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved",
+      "selection": {
+        "dataset": "ADE20K val",
+        "metric": "metrics/val_pq_all",
+        "value": 0.45100518360482156,
+        "epoch": 159,
+        "selection": "Highest final PQ among local ADE20K token-mode runs with a checkpoint and W&B summary.",
+        "evidence": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260223_003307-dbimqvy4/files/wandb-summary.json",
+        "evidence_sha256": "4d129e7bc332fa365edd8bbaded2207de9f8f8ea3b3179b5be7295a4ae9445ed"
+      }
+    },
+    {
+      "file": "weights/DynEoMT/ovis_large_best_mcc.pth",
+      "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ovis/vit-large/model_0089999.pth",
+      "config": "DynEoMT/configs/DynEoMT/ovis/dinov2/vit-large/dyneomt_online_vitl.yaml",
+      "key": "model",
+      "tensors": 370,
+      "source_bytes": 3815314261,
+      "bytes": 1271749115,
+      "sha256": "07bc981a45465675b353f0f1bec3b2862f0be4a6829850e796a3cc66d6903afc",
+      "source_sha256": "85df72b1f98832fa40ddc5b18b2e121bdc5ae0192ae19de6483552d6f6c7469c",
+      "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved",
+      "selection": {
+        "dataset": "OVIS val",
+        "metric": "dynamic/Dyn-MCC",
+        "value": 41.11934283632644,
+        "segm/AP": 50.60728391939673,
+        "iteration": 89999,
+        "selection": "Peak logged Dyn-MCC of the corrected-temporal-targets OVIS ViT-L run.",
+        "evidence": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ovis/vit-large/metrics.json",
+        "evidence_sha256": "76f2deab62157ca53781cba507ffed4fed7fbc6c72079c0419fefaba19c64514"
+      }
+    }
+  ],
+  "generated_runner_files": [
+    {
+      "file": "run_all.sh",
+      "sha256": "190fe6d96c577a1f5107d16ef57aaca83ce71c649a5bb647fb60809df0857db0"
+    },
+    {
+      "file": "tools/run_all.py",
+      "sha256": "77dcd6d5dcbb84eb80fbcecc7c91e784fa1c02329a8a9592f2e9a04943217096"
+    },
+    {
+      "file": "tools/evaluate_model.py",
+      "sha256": "96d4b7bf1c6438e4c8c5838c87b9ec9c1782f8c4dfeac4ea0e08722b14ab31b5"
+    },
+    {
+      "file": "tools/prepare_msda.py",
+      "sha256": "b5676d3ce2d1e0becdf797fa8b005cd0bc4d8b6cd3fd9655d78c92b3635d2a6d"
+    }
+  ],
+  "previous_smoke_validation": {
+    "entrypoint": "run_all.sh",
+    "weight_manifest": "weights/manifest.json",
+    "full_validation_report": "reports/20261023_101956_286514/summary.json",
+    "checks": {
+      "OK": 17,
+      "FAIL": 0,
+      "SKIP": 0
+    },
+    "examples_manifest": "examples/provenance.json",
+    "note": "Real example inference for every bundled model; full benchmark scores not recomputed."
+  },
+  "runner": {
+    "entrypoint": "run_all.sh",
+    "mode": "full_validation",
+    "models": [
+      "LiPS ADE20K 4 levels best",
+      "TokenMask ADE20K Large",
+      "DynEoMT OVIS Large best MCC"
+    ],
+    "metrics_source": "Evaluator return values from the current invocation; no historical or paper metrics",
+    "datasets": {
+      "LiPS": "../codes/maskdocker/data",
+      "TokenMask": "../cyril/codes/lips2/data",
+      "DynEoMT": "../DynEOMT/data"
+    },
+    "dynamic_targets": "../DynEOMT/outputs/dynamic_general_full/labels",
+    "validation_reports": {
+      "LiPS": "reports/eval_reelle_LiPS_20261023/summary.json",
+      "TokenMask": "reports/eval_reelle_TokenMask_20261023/summary.json",
+      "DynEoMT": "reports/eval_reelle_DynEoMT_20261023/summary.json"
+    }
+  },
+  "paper_weights_collection": {
+    "date": "2026-11-05",
+    "manifest": "weights/manifest.json",
+    "coverage": "weights/PAPER_COVERAGE.json",
+    "unique_files": 105,
+    "bytes": 55583024277,
+    "verification": "All added stripped checkpoints reloaded and compared tensor by tensor; native copies hash-verified; no model quality metrics recomputed."
+  }
+}

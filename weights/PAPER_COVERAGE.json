@@ -1,0 +1,73 @@
+{
+  "scope": "LiPS, TokenMask/EoMT, DynEoMT/VidEoMT paper configurations and available ablations/pretrained initializations; local files only",
+  "unique_files": 105,
+  "aliases": 3,
+  "bytes": 55583024277,
+  "by_family": {
+    "LiPS": 19,
+    "TokenMask": 46,
+    "DynEoMT": 40
+  },
+  "missing": [
+    {
+      "family": "TokenMask/EoMT",
+      "configuration": "ADE20K semantic 512x512, Tiny/Small/Base/Large, EoMT and TokenMask",
+      "status": "checkpoint_not_found",
+      "count": 8,
+      "reference": "tab:tokenmask_ade_semantic",
+      "evidence": "No corresponding semantic ADE20K checkpoint among inventoried runs; available ADE20K runs report panoptic metrics."
+    },
+    {
+      "family": "TokenMask",
+      "configuration": "ADE20K stride 1/8/16 ablation",
+      "status": "checkpoint_not_found",
+      "count": 3,
+      "reference": "fig:tokenmask-stride-tradeoff",
+      "evidence": "Stride-specific YAMLs exist; all identified trained TokenMask checkpoint hyperparameters use mask_out_stride=4."
+    },
+    {
+      "family": "TokenMask",
+      "configuration": "Trained Giant used for memory comparison",
+      "status": "checkpoint_not_found",
+      "reference": "tab:tokenmask_memory",
+      "evidence": "The public EoMT Giant initialization is included as ade20k_g_640.bin; it is not a trained TokenMask Giant checkpoint."
+    },
+    {
+      "family": "external_comparisons",
+      "configuration": "Segmenter ADE20K/Cityscapes Tiny/Small/Base/Large",
+      "status": "exact_comparison_checkpoints_not_found",
+      "reference": [
+        "tab:tokenmask_ade_semantic",
+        "tab:tokenmask_city_semantic"
+      ],
+      "evidence": "The CTS Segmenter training checkpoint found locally belongs to a different experiment; it was not substituted."
+    }
+  ],
+  "notes": [
+    "Training/configuration correspondence is recorded; historical paper scores are not claimed to have been reproduced.",
+    "LiPS Cityscapes source directories named 3_layers and 4_layers contain configurations routing respectively four and three features. Original folder names are preserved in file names and config snapshots.",
+    "The older native-resolution EoMT Tiny checkpoint uses models.ceomt.EoMT; this original implementation is included."
+  ],
+  "paper_sources": [
+    {
+      "path": "/data1/is156025/cg276974/DynEOMT/Thesis_v3/main.tex",
+      "sha256": "1cdc6ef6a60ac7121d881065e2c62213ac274997ae55f1f84cca339c490ce3a7"
+    },
+    {
+      "path": "/data1/is156025/cg276974/DynEOMT/last_version/main.tex",
+      "sha256": "981ba8c01daf55ac27124d18f576178c613967f685a70be8fe0eb2eb41c1d116"
+    },
+    {
+      "path": "/data1/is156025/cg276974/DynEOMT/last_version/main_supplementary.tex",
+      "sha256": "ce0dfd20d1a62dd9278d8a54a902f7bd79eb57b9c7944bbfc6419de3eb8afe54"
+    },
+    {
+      "path": "/data1/is156025/cg276974/DynEOMT/paper_mp/main.tex",
+      "sha256": "64240fba2f2d13e90acf9a1f05cfaacacc2b2ed4c8780cfd481abecd38492cfb"
+    },
+    {
+      "path": "/data1/is156025/cg276974/DynEOMT/VISAPP_2027/main.tex",
+      "sha256": "5e5d8211d40f9d067b8c324bbc6bc3934f8b928b466b61501cc1e6813bca7658"
+    }
+  ]
+}

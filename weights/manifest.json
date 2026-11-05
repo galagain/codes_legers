@@ -1,0 +1,2767 @@
+[
+  {
+    "file": "weights/LiPS/ade20k_4levels.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/output/model_final.pth",
+    "config": "LiPS/configs/ade20k_4levels.yaml",
+    "key": "model",
+    "tensors": 725,
+    "source_bytes": 237774172,
+    "bytes": 79867410,
+    "sha256": "1e24cd21905f682426063a2d894e33711fd17b6a3d5af77e98adadb20ae9963f",
+    "source_sha256": "087deff8fce86bf9c8b8d76e205b1f0b02840d3d0ad110e26d5526ab74da65dd",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved",
+    "family": "LiPS",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:lips_ade20k"
+    ],
+    "source_run": "last_arch_4_layers",
+    "training_config": "weights/configs/LiPS/ade20k_4levels.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_small.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/4qz6uqyb/checkpoints/epoch=159-step=807840.ckpt",
+    "config": "TokenMask/configs/ade20k_small.yaml",
+    "key": "state_dict",
+    "tensors": 188,
+    "source_bytes": 273784821,
+    "bytes": 91236817,
+    "sha256": "6b1014159deedba9f05d255bc4323e30de66ca45b7c85d0cabead2b22f980de0",
+    "source_sha256": "ec081ca2e39fd0022630852b5085c2709acf1a396973c23f7936d6b733ce1287",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved",
+    "aliases": [
+      "weights/TokenMask/ade20k_panoptic_small_tokenmask_logit_4qz6uqyb.pth"
+    ],
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "4qz6uqyb",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "small",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.3520078522440344,
+      "epoch": 159
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_small_tokenmask_logit_4qz6uqyb.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260219_215253-4qz6uqyb/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_small_tokenmask_logit_4qz6uqyb.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_tiny.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/7al1rsxh/checkpoints/epoch=159-step=807840.ckpt",
+    "config": "TokenMask/configs/ade20k_tiny.yaml",
+    "key": "state_dict",
+    "tensors": 163,
+    "source_bytes": 71898557,
+    "bytes": 23944541,
+    "sha256": "c5dfbca901282faf778cf844fec4af5c7d75a3aadde075f7d7b16ff8df09cd33",
+    "source_sha256": "d04ec3851754df19a4c08595a73f78e36e16ed75d5c9acebdcd66277ab674345",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved",
+    "aliases": [
+      "weights/TokenMask/ade20k_panoptic_tiny_tokenmask_logit_7al1rsxh.pth"
+    ],
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "7al1rsxh",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "tiny",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.2771648153976105,
+      "epoch": 159
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_tiny_tokenmask_logit_7al1rsxh.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260219_215141-7al1rsxh/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_tiny_tokenmask_logit_7al1rsxh.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/vipseg_small.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/vipseg/vit-small/model_final.pth",
+    "config": "DynEoMT/configs/DynEoMT/VIPSeg/dinov2/vit-small/dyneomt_online_vits.yaml",
+    "key": "model",
+    "tensors": 202,
+    "source_bytes": 313044603,
+    "bytes": 104334843,
+    "sha256": "75b17a616bd29d8a34521b220d0ba78a1fe1d7226eacb8d921f3576718953a70",
+    "source_sha256": "50050e0a667c309ee4b998bac6a5bd2c9bdde81463439a9a18f77e292ddb0862",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved",
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/vipseg_small.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/vipseg/vit-small/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/ovis_small.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ovis/vit-small/model_final.pth",
+    "config": "DynEoMT/configs/DynEoMT/ovis/dinov2/vit-small/dyneomt_online_vits.yaml",
+    "key": "model",
+    "tensors": 202,
+    "source_bytes": 290468475,
+    "bytes": 96808795,
+    "sha256": "df871d4248cce062202a6180b4f14c9fd9c3c2975f3fd2ef3466b62814cfef7c",
+    "source_sha256": "596630cb44ec165cf1e696e2ce1761743b7874a6d699de5f1e416cc23f83db28",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved",
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/ovis_small.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ovis/vit-small/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/AFFormer_base_ade20k.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/checkpoints/AFFormer_base_ade20k.pth",
+    "bytes": 36438812,
+    "sha256": "f9e62b8b5ec70bd97a8da1a5420e33291e9e96756fbe34aa2e4dd277aabd3f48",
+    "role": "AFFormer initialization, required by original LiPS constructor"
+  },
+  {
+    "file": "weights/LiPS/ade20k_4levels_best.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/output/model_0154999.pth",
+    "config": "LiPS/configs/ade20k_4levels.yaml",
+    "key": "model",
+    "tensors": 725,
+    "source_bytes": 237774172,
+    "bytes": 79871065,
+    "sha256": "33b4388b5a4289c7adf82689f686bf63b61ea091b86c0ef8af6e8820019c1a0d",
+    "source_sha256": "1a5b12a480145129b6ecda1feffc5dba38a2bcb74abd8ab394b14e90721b74c2",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved",
+    "selection": {
+      "dataset": "ADE20K val",
+      "metric": "panoptic_seg/PQ",
+      "value": 36.59289946131759,
+      "iteration": 154999,
+      "selection": "Best logged PQ among the four ADE20K LiPS routing runs (1-4 levels).",
+      "evidence": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers/Mask2AFFormer_env/Mask2Former/output/metrics.json",
+      "evidence_sha256": "6093ee505bfbf6fd5677370f3d820f8af1ebd14be370026b7676bbf9aca89346"
+    }
+  },
+  {
+    "file": "weights/TokenMask/ade20k_large.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/dbimqvy4/checkpoints/epoch=159-step=807840.ckpt",
+    "config": "TokenMask/configs/ade20k_large.yaml",
+    "key": "state_dict",
+    "tensors": 356,
+    "source_bytes": 3700094098,
+    "bytes": 1233317193,
+    "sha256": "4c63ad4259e3c631c3b18a1711c753d3bb549bdae80d23ee2efab913295befc6",
+    "source_sha256": "145b6219b23dbb5b346cf7003d1490329dac6ad08f2a441c920a3c9baed72a0b",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved",
+    "selection": {
+      "dataset": "ADE20K val",
+      "metric": "metrics/val_pq_all",
+      "value": 0.45100518360482156,
+      "epoch": 159,
+      "selection": "Highest final PQ among local ADE20K token-mode runs with a checkpoint and W&B summary.",
+      "evidence": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260223_003307-dbimqvy4/files/wandb-summary.json",
+      "evidence_sha256": "4d129e7bc332fa365edd8bbaded2207de9f8f8ea3b3179b5be7295a4ae9445ed"
+    },
+    "aliases": [
+      "weights/TokenMask/ade20k_panoptic_large_tokenmask_logit_dbimqvy4.pth"
+    ],
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "dbimqvy4",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "large",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 159,
+      "metrics/val_pq_all": 0.45100518360482156
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_large_tokenmask_logit_dbimqvy4.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260223_003307-dbimqvy4/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_large_tokenmask_logit_dbimqvy4.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/ovis_large_best_mcc.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ovis/vit-large/model_0089999.pth",
+    "config": "DynEoMT/configs/DynEoMT/ovis/dinov2/vit-large/dyneomt_online_vitl.yaml",
+    "key": "model",
+    "tensors": 370,
+    "source_bytes": 3815314261,
+    "bytes": 1271749115,
+    "sha256": "07bc981a45465675b353f0f1bec3b2862f0be4a6829850e796a3cc66d6903afc",
+    "source_sha256": "85df72b1f98832fa40ddc5b18b2e121bdc5ae0192ae19de6483552d6f6c7469c",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved",
+    "selection": {
+      "dataset": "OVIS val",
+      "metric": "dynamic/Dyn-MCC",
+      "value": 41.11934283632644,
+      "segm/AP": 50.60728391939673,
+      "iteration": 89999,
+      "selection": "Peak logged Dyn-MCC of the corrected-temporal-targets OVIS ViT-L run.",
+      "evidence": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ovis/vit-large/metrics.json",
+      "evidence_sha256": "76f2deab62157ca53781cba507ffed4fed7fbc6c72079c0419fefaba19c64514"
+    }
+  },
+  {
+    "file": "weights/LiPS/ade20k_1levels.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_1_layers/Mask2AFFormer_env/Mask2Former/output/model_final.pth",
+    "source_bytes": 241751562,
+    "bytes": 81196148,
+    "sha256": "320f686be4d3e117fe367fa6aafb151100281ac521a0e1c7d1ffc3c54bc47e08",
+    "source_sha256": "55547f2df515feaee94a6428b3687acc4c3165a8b0ab9a0a020f9834ddebd116",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 731,
+    "family": "LiPS",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:lips_ade20k"
+    ],
+    "source_run": "last_arch_1_layers",
+    "training_config": "weights/configs/LiPS/ade20k_1levels.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/last_arch_1_layers/Mask2AFFormer_env/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/ade20k_2levels.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_2_layers/Mask2AFFormer_env/Mask2Former/output/model_final.pth",
+    "source_bytes": 240425744,
+    "bytes": 80754210,
+    "sha256": "fc62f783c662aa70ee74ba6a65ff13a6d0fc34c280e726da3d73e84359be6e5e",
+    "source_sha256": "e3ea6879af9dd34b9cd749c973f5390eb51d36ed80b74f1dac03e4ae6b0dce6a",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 729,
+    "family": "LiPS",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:lips_ade20k"
+    ],
+    "source_run": "last_arch_2_layers",
+    "training_config": "weights/configs/LiPS/ade20k_2levels.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/last_arch_2_layers/Mask2AFFormer_env/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/ade20k_3levels.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_3_layers/Mask2AFFormer_env/Mask2Former/output/model_final.pth",
+    "source_bytes": 238101212,
+    "bytes": 79979326,
+    "sha256": "e2d5e9a5398e4067527192e02cc2008651a40ef33ee2569f81b4467311d6b24a",
+    "source_sha256": "e6cb5f102b8c296622e3ef3e6160c4007c08a34b068d90d255f69e946fb8187d",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 725,
+    "family": "LiPS",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:lips_ade20k"
+    ],
+    "source_run": "last_arch_3_layers",
+    "training_config": "weights/configs/LiPS/ade20k_3levels.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/last_arch_3_layers/Mask2AFFormer_env/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/cityscapes_1levels.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_1_layers_city/Mask2AFFormer_env/Mask2Former/output/model_final.pth",
+    "source_bytes": 241347082,
+    "bytes": 81066232,
+    "sha256": "c9a633d8bd31508dc81544b818366fd21b537498facb53af5c5d9efab768b676",
+    "source_sha256": "07f2cd3f973bb1c291488d7d85fe0c77cb445dc24732fa57daf8b19d0f23ff8f",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 731,
+    "family": "LiPS",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:lips_cityscapes"
+    ],
+    "source_run": "last_arch_1_layers_city",
+    "training_config": "weights/configs/LiPS/cityscapes_1levels.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/last_arch_1_layers_city/Mask2AFFormer_env/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/cityscapes_2levels.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_2_layers_city/Mask2AFFormer_env/Mask2Former/output/model_final.pth",
+    "source_bytes": 240021264,
+    "bytes": 80624286,
+    "sha256": "04039414294669aa751846154f7935c07a8375ab3fda399aa7d8e3e6151dc5b3",
+    "source_sha256": "ee60b1477b43ac8c66895703ca44bc399c9b0a0b0b2aea98b1fc60889474e6db",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 729,
+    "family": "LiPS",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:lips_cityscapes"
+    ],
+    "source_run": "last_arch_2_layers_city",
+    "training_config": "weights/configs/LiPS/cityscapes_2levels.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/last_arch_2_layers_city/Mask2AFFormer_env/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/cityscapes_3levels.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_3_layers_city/Mask2AFFormer_env/Mask2Former/output/model_final.pth",
+    "source_bytes": 237369692,
+    "bytes": 79740394,
+    "sha256": "a445c2cc8b083a1fda7f97df166f7dbb792025d7c74759429eef6d38e3f0f34f",
+    "source_sha256": "3e3f7832401959a1386372c5c5fa0844b6c34fd46d5fd3c4da85edfac34cda99",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 725,
+    "family": "LiPS",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:lips_cityscapes"
+    ],
+    "source_run": "last_arch_3_layers_city",
+    "training_config": "weights/configs/LiPS/cityscapes_3levels.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/last_arch_3_layers_city/Mask2AFFormer_env/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/cityscapes_4levels.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers_city/Mask2AFFormer_env/Mask2Former/output/model_final.pth",
+    "source_bytes": 238695446,
+    "bytes": 80182340,
+    "sha256": "eb86c9151b00bb4d674499b769e664e8a95a22a891419d5dbe85b27a2e128c12",
+    "source_sha256": "f577eb206622170e0d283307de6890ccde36c0876e8017d2b362264f07a334d0",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 727,
+    "family": "LiPS",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:lips_cityscapes"
+    ],
+    "source_run": "last_arch_4_layers_city",
+    "training_config": "weights/configs/LiPS/cityscapes_4levels.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/last_arch_4_layers_city/Mask2AFFormer_env/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/ablations/ade20k_r50_decoder_5layers.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/newws/expe1/Mask2Former/output/model_final.pth",
+    "source_bytes": 519943721,
+    "bytes": 173667711,
+    "sha256": "adb818a2f86d91813ece585dc5036969bf286a4dd2d8fbb0dc96fda219cf327c",
+    "source_sha256": "b34d6836fb2a55d7a00cecf2f5f789c9f33b79ed58592cc5c91c9211c1a0403b",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 542,
+    "family": "LiPS",
+    "role": "paper_ablation",
+    "paper_tables": [
+      "tab:lips_layers"
+    ],
+    "training_config": "weights/configs/LiPS/ablations/ade20k_r50_decoder_5layers.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/newws/expe1/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/ablations/ade20k_r50_decoder_4layers.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/newws/expe2/Mask2Former/output/model_final.pth",
+    "source_bytes": 511139033,
+    "bytes": 170731695,
+    "sha256": "6b663619bc1ca365e94a530daa7cdaf2cf88fceb35da46fc79d35c984a0589a2",
+    "source_sha256": "e2419c26812efeddf1ed756db71108e1efd2025a8030d64dfaf771d943c46f60",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 526,
+    "family": "LiPS",
+    "role": "paper_ablation",
+    "paper_tables": [
+      "tab:lips_layers"
+    ],
+    "training_config": "weights/configs/LiPS/ablations/ade20k_r50_decoder_4layers.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/newws/expe2/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/ablations/ade20k_r50_decoder_3layers.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/newws/expe3/Mask2Former/output/model_final.pth",
+    "source_bytes": 502334281,
+    "bytes": 167795743,
+    "sha256": "a6c566b6529a042d5c77b0d0d5dffba20602091fc28a5a815440028bc4850dcd",
+    "source_sha256": "33a593deb5b447e4728e9f52a5d2c58c64db5c420b39c392d5288c3e70eadc7c",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 510,
+    "family": "LiPS",
+    "role": "paper_ablation",
+    "paper_tables": [
+      "tab:lips_layers"
+    ],
+    "training_config": "weights/configs/LiPS/ablations/ade20k_r50_decoder_3layers.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/newws/expe3/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/ablations/ade20k_r50_decoder_2layers.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/newws/expe4/Mask2Former/output/model_final.pth",
+    "source_bytes": 493529529,
+    "bytes": 164859727,
+    "sha256": "1fb15d1c3cc0b7cc5b48972669894e054d956d48f88c4163c71f93916c971114",
+    "source_sha256": "0ee1d02468256faeda27526ee3fadd03f659c3fc046f0816b46a51c0b12b7283",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 494,
+    "family": "LiPS",
+    "role": "paper_ablation",
+    "paper_tables": [
+      "tab:lips_layers"
+    ],
+    "training_config": "weights/configs/LiPS/ablations/ade20k_r50_decoder_2layers.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/newws/expe4/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/ablations/ade20k_r50_decoder_1layers.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/newws/expe5/Mask2Former/output/model_final.pth",
+    "source_bytes": 484724777,
+    "bytes": 161923775,
+    "sha256": "967ab2dcf46bed41513951debb079b4e11406771e7312402bd4064e5a12ada90",
+    "source_sha256": "27e4af820e6724f44f2b6bc5d640df66928c1f43efa2145c2233691472629c32",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 478,
+    "family": "LiPS",
+    "role": "paper_ablation",
+    "paper_tables": [
+      "tab:lips_layers"
+    ],
+    "training_config": "weights/configs/LiPS/ablations/ade20k_r50_decoder_1layers.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/newws/expe5/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/ablations/ade20k_r50_decoder_128channels.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/newws/expe6/Mask2Former/output/model_final.pth",
+    "source_bytes": 489054695,
+    "bytes": 163374645,
+    "sha256": "21c3edac6adb14877d200f18c91f9bafae9807d7c3256cff9aa3b0fa7ea75553",
+    "source_sha256": "7d3e19f58e79a0db5ddf8644b0431c9916936419e475895ddf3a53de09789c0f",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 564,
+    "family": "LiPS",
+    "role": "paper_ablation",
+    "paper_tables": [
+      "tab:lips_width"
+    ],
+    "training_config": "weights/configs/LiPS/ablations/ade20k_r50_decoder_128channels.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/newws/expe6/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/ablations/ade20k_r50_decoder_64channels.pth",
+    "source": "/data1/is156025/cg276974/save_ral/expes/newws/expe7/Mask2Former/output/model_final.pth",
+    "source_bytes": 471264679,
+    "bytes": 157444091,
+    "sha256": "f860cdbe933df7d032a0909b215e5a2f5200df9870e6a38ab09f5ffa3d63cd92",
+    "source_sha256": "bbbe2fe591e9c0b0dc3d521b5c69d47179f8e113b3909ad3c1339974675197d3",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 564,
+    "family": "LiPS",
+    "role": "paper_ablation",
+    "paper_tables": [
+      "tab:lips_width"
+    ],
+    "training_config": "weights/configs/LiPS/ablations/ade20k_r50_decoder_64channels.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/newws/expe7/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/baselines/mask2former_r50_ade20k.pkl",
+    "source": "/data1/is156025/cg276974/save_ral/expes/mr50/Mask2AFFormer_env/Mask2Former/model_r50_ade20k.pkl",
+    "source_bytes": 176454406,
+    "bytes": 176454406,
+    "sha256": "f60f5a074d8f613a3c98890337c588c917cc6181a34fb55f2671e07baf4c4be2",
+    "source_sha256": "f60f5a074d8f613a3c98890337c588c917cc6181a34fb55f2671e07baf4c4be2",
+    "verification": "Byte-for-byte copy of the original inference/pretrained file",
+    "family": "LiPS",
+    "role": "paper_baseline",
+    "training_config": "weights/configs/LiPS/baselines/mask2former_r50_ade20k.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/newws/expe1/Mask2Former/configs/ade20k/panoptic-segmentation/maskformer2_R50_bs16_160k.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/LiPS/baselines/mask2former_r50_cityscapes.pkl",
+    "source": "/data1/is156025/cg276974/save_ral/expes/mr50/Mask2AFFormer_env/Mask2Former/model_r50_city.pkl",
+    "source_bytes": 176323695,
+    "bytes": 176323695,
+    "sha256": "bfd9b6fb32bab34a6a6ef1093d7e0c9eaa6a074bea0b646391e3be8a2a00ed0b",
+    "source_sha256": "bfd9b6fb32bab34a6a6ef1093d7e0c9eaa6a074bea0b646391e3be8a2a00ed0b",
+    "verification": "Byte-for-byte copy of the original inference/pretrained file",
+    "family": "LiPS",
+    "role": "paper_baseline",
+    "training_config": "weights/configs/LiPS/baselines/mask2former_r50_cityscapes.yaml",
+    "config_source": "/data1/is156025/cg276974/save_ral/expes/mr50/Mask2AFFormer_env/Mask2Former/output/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_tiny_eomt_feature_oht643kj.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/oht643kj/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 75506349,
+    "bytes": 25152234,
+    "sha256": "49c6c9bbfd3c142109cedd3ae46941cd45dbda4451a40ae7e32e1b6dc0f11802",
+    "source_sha256": "2f1972672e368e3d7f5607ad9f5ccc11b99791a2562018e9118adc47a9e05347",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 173,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "oht643kj",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "tiny",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.2947365959890812,
+      "epoch": 159
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_tiny_eomt_feature_oht643kj.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260212_231315-oht643kj/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_tiny_eomt_feature_oht643kj.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_small_eomt_feature_aoe7zvj0.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/aoe7zvj0/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 288064805,
+    "bytes": 96002771,
+    "sha256": "330476d9946cd42e9f7d9eb42851da09631399a33d7f59f647a5edf0314858bd",
+    "source_sha256": "4fb7aca1f0615cf64f84f8aa2462ec74bb743aca2fafce99e391475f54f0f3f1",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 198,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "aoe7zvj0",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "small",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.3797110723984258,
+      "epoch": 159
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_small_eomt_feature_aoe7zvj0.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260212_231317-aoe7zvj0/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_small_eomt_feature_aoe7zvj0.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_base_eomt_feature_cquqkghn.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/cquqkghn/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 1124389157,
+    "bytes": 374777351,
+    "sha256": "45af01ec749d30f2c9763c3b50f0256ea8001bcdac8b0278b90f1d90b7ae3b3e",
+    "source_sha256": "05c109b4a598075272fa0a3a27f53049f29447dc50575979570020e49439eb72",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 198,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "cquqkghn",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "base",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.4054224677659599,
+      "epoch": 159
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_base_eomt_feature_cquqkghn.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260212_231318-cquqkghn/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_base_eomt_feature_cquqkghn.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_large_eomt_feature_cvxyrto5.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/cvxyrto5/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 3801066026,
+    "bytes": 1266986371,
+    "sha256": "2d4d4ca7515873613b9d7da33adcc03ec532e68ec846f5c786649a7cfc0cb736",
+    "source_sha256": "cff1755397b5471494470a23da1b79ca53aa496222034a71514f104783f56d1e",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 366,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "cvxyrto5",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "large",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.4663991323379416,
+      "epoch": 159
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_large_eomt_feature_cvxyrto5.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260212_231323-cvxyrto5/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_large_eomt_feature_cvxyrto5.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_base_tokenmask_logit_y9zhf7tf.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/y9zhf7tf/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 1067531317,
+    "bytes": 355826331,
+    "sha256": "1e702454ace9a103acd939a8d50ffd592d646d14964b79ce32238a573a635551",
+    "source_sha256": "f4520080fbb0cef064dda70628c5546b933598fc45b154b620687bd83ed166f8",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "y9zhf7tf",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "base",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 159,
+      "metrics/val_pq_all": 0.38972987220394717
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_base_tokenmask_logit_y9zhf7tf.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260214_133022-y9zhf7tf/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_base_tokenmask_logit_y9zhf7tf.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_tiny_eomt_logit_72mgvuy4.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/72mgvuy4/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 71898557,
+    "bytes": 23950374,
+    "sha256": "02cd34df9850d421572bde7ffa73dccc8a9493ffc915402b5bc1f38b211da348",
+    "source_sha256": "9c9df9e9b9fc2a37a561f6fc4abf669ce1d2b900e3c078a31bb90c5f89ea56af",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 163,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "72mgvuy4",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "tiny",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.28448020079968833,
+      "epoch": 159
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_tiny_eomt_logit_72mgvuy4.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260219_075713-72mgvuy4/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_tiny_eomt_logit_72mgvuy4.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_small_eomt_logit_ichll3wm.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/ichll3wm/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 273784885,
+    "bytes": 91243411,
+    "sha256": "41e97795afcd1470fb2af0c71c2c4263f74699737d0a84eda3ed2722dd2b34ca",
+    "source_sha256": "542549bd80de992050a00c5718f7f412cf9ff9c03e74fb92b262047302a1d470",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "ichll3wm",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "small",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 159,
+      "metrics/val_pq_all": 0.358130366461919
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_small_eomt_logit_ichll3wm.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260218_071343-ichll3wm/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_small_eomt_logit_ichll3wm.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_base_eomt_logit_971deeg4.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/971deeg4/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 1067531317,
+    "bytes": 355825361,
+    "sha256": "df04683cbd1d45f14eed5094c89a1278f8b5fdda9f9dcb9885a14230053d2f59",
+    "source_sha256": "5ecc13bc3ea3690598f13652e5930ca9ad57d37790d2d0a3672fb1536f5c4a6b",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "971deeg4",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "base",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.38999953219160916,
+      "epoch": 159
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_base_eomt_logit_971deeg4.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260216_154321-971deeg4/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_base_eomt_logit_971deeg4.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_large_eomt_logit_cqmuavyp.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/cqmuavyp/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 3700094098,
+    "bytes": 1233329395,
+    "sha256": "7fdd8769870f735da83781d4e7facd0f6c9467ac002602f53abd921deefaa08f",
+    "source_sha256": "86b0ec9be3a6098c5bb818861b86a6a1c0c946d58c0d73c3404e825a20175c74",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 356,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "cqmuavyp",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "large",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 159,
+      "metrics/val_pq_all": 0.45429462513867164
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_large_eomt_logit_cqmuavyp.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260216_154325-cqmuavyp/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_large_eomt_logit_cqmuavyp.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_tiny_tokenmask_none_5ow5k202.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/5ow5k202/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 71898557,
+    "bytes": 23951050,
+    "sha256": "f8b15dfeb6fad187fbe7e52e8c6f608e6d184784720c8443ce88ff46258da8f6",
+    "source_sha256": "c73b9046f2ec52a76a20caeea858122a6ae1e5dcb8efaa9802519f532f1c467d",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 163,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "5ow5k202",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "tiny",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "none",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 159,
+      "metrics/val_pq_all": 0.2806380876888365
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_tiny_tokenmask_none_5ow5k202.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260219_063119-5ow5k202/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_tiny_tokenmask_none_5ow5k202.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_small_tokenmask_none_fblc8i1j.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/fblc8i1j/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 273784821,
+    "bytes": 91244187,
+    "sha256": "3aebcaa8914241e61e727401fa4277babdbb83f49286d1567864d994792c537d",
+    "source_sha256": "1e2f59c34fd49ebf0eaefc8924b92c507b0d4e8c9204580f5060bf713ce6236a",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "fblc8i1j",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "small",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "none",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.35529044709705304,
+      "epoch": 159
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_small_tokenmask_none_fblc8i1j.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260218_062221-fblc8i1j/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_small_tokenmask_none_fblc8i1j.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_base_tokenmask_none_ctfoekbx.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/ctfoekbx/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 1067531317,
+    "bytes": 355826137,
+    "sha256": "9ac819b5a1610889da8d79739a6a8161ea846d9d7f7162c0995a2b23f09f9959",
+    "source_sha256": "c46361b1a56f9a98f288f8e9841f0b997217e07872dc1fa20d756a87fa9e41d8",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "ctfoekbx",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "base",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "none",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 159,
+      "metrics/val_pq_all": 0.3795953629655961
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_base_tokenmask_none_ctfoekbx.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260216_154343-ctfoekbx/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_base_tokenmask_none_ctfoekbx.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_large_tokenmask_none_66j1zjzg.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/66j1zjzg/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 3700094098,
+    "bytes": 1233330843,
+    "sha256": "6b5604556400be624fac27193cb5e10f6b7db48c45d84f674974aa424dec07a8",
+    "source_sha256": "d879e8efc419752326a2d1ed4f3cc67a4fd674cc8e551b3e5db409b101adb609",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 356,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "66j1zjzg",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "large",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "none",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 159,
+      "metrics/val_pq_all": 0.4508209005567964
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_large_tokenmask_none_66j1zjzg.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260216_154355-66j1zjzg/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_large_tokenmask_none_66j1zjzg.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_tiny_eomt_none_yz9mxnhx.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/yz9mxnhx/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 71898365,
+    "bytes": 23950205,
+    "sha256": "0f2efed57ab7261d8bbc4c43d317b8b36c6c64c3b24993ba0a3f4c7953ce175a",
+    "source_sha256": "a628ccfcc5758bda87ba24a97d133b1ff0d702dd236c464c6176e6f0e94bb0f4",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 163,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "yz9mxnhx",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "tiny",
+      "network": "models.ceomt.EoMT",
+      "mask_prediction": "default",
+      "upsampling": "none",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.2723799886149865,
+      "epoch": 159
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_tiny_eomt_none_yz9mxnhx.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260104_202956-yz9mxnhx/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_tiny_eomt_none_yz9mxnhx.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_small_eomt_none_mkwzj92x.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/mkwzj92x/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 273784885,
+    "bytes": 91243217,
+    "sha256": "31b2d5d9440903b3a9ee3fd973d5aca0f024826a4b5849ec069de48beba030cb",
+    "source_sha256": "9ea6b47429347befebf1def106be3399e8cf6b5358bea66511c75cdbce1068a9",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "mkwzj92x",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "small",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "none",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 159,
+      "metrics/val_pq_all": 0.35741351395968324
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_small_eomt_none_mkwzj92x.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260223_010433-mkwzj92x/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_small_eomt_none_mkwzj92x.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_base_eomt_none_5tqbkosy.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/5tqbkosy/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 1067531317,
+    "bytes": 355825167,
+    "sha256": "e69ea7431f987fe8f2d8a29533bdbe19fa7978034f9f4d61f3b65b22affef609",
+    "source_sha256": "70d232e8dd83d3fd2010d9fac43372a7d5fc2cc39ef16cf264ccf66b1018048e",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "5tqbkosy",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "base",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "none",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.388797880796781,
+      "epoch": 159
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_base_eomt_none_5tqbkosy.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260223_010221-5tqbkosy/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_base_eomt_none_5tqbkosy.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/ade20k_panoptic_large_eomt_none_2nu66ri5.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/2nu66ri5/checkpoints/epoch=159-step=807840.ckpt",
+    "source_bytes": 3700094098,
+    "bytes": 1233329033,
+    "sha256": "a89a3ff9a9009ca3baa7df2563d1db4c9f3a604f059d02ea5f13a70d3ab95b30",
+    "source_sha256": "70cbeccb95e3b6536e2220b658d5dfb366062725d719ece4eba83f1b8d8744a7",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 356,
+    "family": "TokenMask",
+    "role": "paper_ablation",
+    "run_id": "2nu66ri5",
+    "variant": {
+      "dataset": "ade20k_panoptic",
+      "size": "large",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "none",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 159,
+      "metrics/val_pq_all": 0.4501051100533259
+    },
+    "training_config": "weights/configs/TokenMask/ade20k_panoptic_large_eomt_none_2nu66ri5.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260223_005843-2nu66ri5/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/ade20k_panoptic_large_eomt_none_2nu66ri5.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/cityscapes_semantic_base_eomt_feature_mblq6tc1.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/mblq6tc1/checkpoints/epoch=106-step=79501.ckpt",
+    "source_bytes": 1145261093,
+    "bytes": 381735095,
+    "sha256": "52faff3cabcd8cd5fda7c42b8022ba80db85a61f1a7d5f108ced2384deeec00c",
+    "source_sha256": "157ff8f910d258ffd4f6d4e8445eb729568b47610db954317ea57971bc6a69aa",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 198,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "mblq6tc1",
+    "variant": {
+      "dataset": "cityscapes_semantic",
+      "size": "base",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_iou_all": 0.8178737759590149,
+      "epoch": 106
+    },
+    "training_config": "weights/configs/TokenMask/cityscapes_semantic_base_eomt_feature_mblq6tc1.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260224_160612-mblq6tc1/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/cityscapes_semantic_base_eomt_feature_mblq6tc1.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/cityscapes_semantic_large_eomt_feature_4d3uq2xa.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/4d3uq2xa/checkpoints/epoch=106-step=79501.ckpt",
+    "source_bytes": 3828896042,
+    "bytes": 1276264147,
+    "sha256": "f4435ef1d398fc26f953cb40ee3a46a25a81cebaec8bb3799fb0681c4c12c74e",
+    "source_sha256": "fc23644cde95fb1229d1132bed1319ba03c2c215a9d32ec0f7b6ab555c3513fb",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 366,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "4d3uq2xa",
+    "variant": {
+      "dataset": "cityscapes_semantic",
+      "size": "large",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_iou_all": 0.8360428214073181,
+      "epoch": 106
+    },
+    "training_config": "weights/configs/TokenMask/cityscapes_semantic_large_eomt_feature_4d3uq2xa.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260224_161621-4d3uq2xa/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/cityscapes_semantic_large_eomt_feature_4d3uq2xa.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/cityscapes_semantic_small_eomt_feature_wecvxrzk.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/wecvxrzk/checkpoints/epoch=106-step=79501.ckpt",
+    "source_bytes": 298499621,
+    "bytes": 99481475,
+    "sha256": "d2b2dcaf3c5a930f93b4c07adc9987330dc7712a1ee0eb489df0b859516aaf60",
+    "source_sha256": "8b0e81bca4b131995bf54cd300d6460e6bd86d5062d3afdecb59195531376688",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 198,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "wecvxrzk",
+    "variant": {
+      "dataset": "cityscapes_semantic",
+      "size": "small",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 106,
+      "metrics/val_iou_all": 0.8101786375045776
+    },
+    "training_config": "weights/configs/TokenMask/cityscapes_semantic_small_eomt_feature_wecvxrzk.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260224_161934-wecvxrzk/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/cityscapes_semantic_small_eomt_feature_wecvxrzk.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/cityscapes_semantic_tiny_eomt_feature_mncmaji2.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/mncmaji2/checkpoints/epoch=106-step=79501.ckpt",
+    "source_bytes": 80722605,
+    "bytes": 26891318,
+    "sha256": "a3b0a542f34b71fefeee31504237c195a380322aedb31a174322580818cc110b",
+    "source_sha256": "e5011d287ee4c29a3d1b66ac95d522f2a79b18ff47f026052f7a52cd7c99b2b0",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 173,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "mncmaji2",
+    "variant": {
+      "dataset": "cityscapes_semantic",
+      "size": "tiny",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_iou_all": 0.6800807118415833,
+      "epoch": 106
+    },
+    "training_config": "weights/configs/TokenMask/cityscapes_semantic_tiny_eomt_feature_mncmaji2.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260224_162403-mncmaji2/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/cityscapes_semantic_tiny_eomt_feature_mncmaji2.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/cityscapes_semantic_base_tokenmask_logit_2dcc4gev.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/2dcc4gev/checkpoints/epoch=106-step=79501.ckpt",
+    "source_bytes": 1088403253,
+    "bytes": 362784035,
+    "sha256": "6fe4e1d9426cfc72e2f38398e74d46fa780976a94ab9ad4d1a08b4386ee1f593",
+    "source_sha256": "aed4af861906a7e1be5d47eaa073cfd16d81a969317421d3ff743a468defb8bd",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "2dcc4gev",
+    "variant": {
+      "dataset": "cityscapes_semantic",
+      "size": "base",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_iou_all": 0.8036335110664368,
+      "epoch": 106
+    },
+    "training_config": "weights/configs/TokenMask/cityscapes_semantic_base_tokenmask_logit_2dcc4gev.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_154429-2dcc4gev/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/cityscapes_semantic_base_tokenmask_logit_2dcc4gev.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/cityscapes_semantic_small_tokenmask_logit_bv5thrrj.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/bv5thrrj/checkpoints/epoch=106-step=79501.ckpt",
+    "source_bytes": 284219637,
+    "bytes": 94723173,
+    "sha256": "25c4e86f4f3ad3c514b6a91a315ee0c5db1fd34065ed2c11381757692d2470f8",
+    "source_sha256": "1fc404e918e87d5dd166d9b1612c3326c01afef25d3396a3731251cefe588565",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "bv5thrrj",
+    "variant": {
+      "dataset": "cityscapes_semantic",
+      "size": "small",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_iou_all": 0.7965773344039917,
+      "epoch": 106
+    },
+    "training_config": "weights/configs/TokenMask/cityscapes_semantic_small_tokenmask_logit_bv5thrrj.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_154455-bv5thrrj/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/cityscapes_semantic_small_tokenmask_logit_bv5thrrj.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/cityscapes_semantic_large_tokenmask_logit_u13b1a9i.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/u13b1a9i/checkpoints/epoch=106-step=79501.ckpt",
+    "source_bytes": 3727924114,
+    "bytes": 1242609069,
+    "sha256": "f32df1dcdf3fa839a2f646089da1c7bcc497ce77a04a6f4e645bbd1738d560dc",
+    "source_sha256": "035e5add83971a7e79a620a384e8d256488900375d6d335efe2bca18d846e8db",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 356,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "u13b1a9i",
+    "variant": {
+      "dataset": "cityscapes_semantic",
+      "size": "large",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 106,
+      "metrics/val_iou_all": 0.8294637799263
+    },
+    "training_config": "weights/configs/TokenMask/cityscapes_semantic_large_tokenmask_logit_u13b1a9i.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_154528-u13b1a9i/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/cityscapes_semantic_large_tokenmask_logit_u13b1a9i.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/cityscapes_semantic_tiny_tokenmask_logit_kj915jx2.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/kj915jx2/checkpoints/epoch=106-step=79501.ckpt",
+    "source_bytes": 77114813,
+    "bytes": 25690263,
+    "sha256": "d4e9409a166edb28ed06d452c98e025b36ffc77e92b8d166b2e3d46ebbd85958",
+    "source_sha256": "fad024298ec1814feb995b7b592da4109986729944887ccbc857b2bfa448d60b",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 163,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "kj915jx2",
+    "variant": {
+      "dataset": "cityscapes_semantic",
+      "size": "tiny",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_iou_all": 0.6762499809265137,
+      "epoch": 106
+    },
+    "training_config": "weights/configs/TokenMask/cityscapes_semantic_tiny_tokenmask_logit_kj915jx2.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_154611-kj915jx2/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/cityscapes_semantic_tiny_tokenmask_logit_kj915jx2.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_panoptic_base_eomt_feature_la5maj3a.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/la5maj3a/checkpoints/epoch=23-step=709584.ckpt",
+    "source_bytes": 1124232293,
+    "bytes": 374724463,
+    "sha256": "1c31fbafcdb5b917d0b45073223691a3788b25713fafba83b9b9f923592565f3",
+    "source_sha256": "8a31f2420faf390d567f964a18c52949c766b2985e4f103d35072a0c78bb1fba",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 198,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "la5maj3a",
+    "variant": {
+      "dataset": "coco_panoptic",
+      "size": "base",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.4680364032220807,
+      "epoch": 23
+    },
+    "training_config": "weights/configs/TokenMask/coco_panoptic_base_eomt_feature_la5maj3a.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_162150-la5maj3a/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_panoptic_base_eomt_feature_la5maj3a.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_panoptic_large_eomt_feature_6fy52yaz.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/6fy52yaz/checkpoints/epoch=23-step=709584.ckpt",
+    "source_bytes": 3800856874,
+    "bytes": 1266915739,
+    "sha256": "496ee199bea362974b3a1f3fdd9964d492fa0f65845256f128438dfe2e0a31e6",
+    "source_sha256": "a621dda63bdb8ed1a441c3b9d8ec5cce45a44bafd0d4a26c9dfdd09382961dc7",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 366,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "6fy52yaz",
+    "variant": {
+      "dataset": "coco_panoptic",
+      "size": "large",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 23,
+      "metrics/val_pq_all": 0.5328833872713796
+    },
+    "training_config": "weights/configs/TokenMask/coco_panoptic_large_eomt_feature_6fy52yaz.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_162220-6fy52yaz/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_panoptic_large_eomt_feature_6fy52yaz.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_panoptic_small_eomt_feature_orj6e9pq.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/orj6e9pq/checkpoints/epoch=23-step=709584.ckpt",
+    "source_bytes": 287986277,
+    "bytes": 95975995,
+    "sha256": "7f5578079cc150b76cad03f33aa2a818dc0e82ab351930d38bcc1ee65f8de15f",
+    "source_sha256": "2cf48315c2d27e48851f7ac6fa7886ac75742c19d8ef06443872adf1317bd51a",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 198,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "orj6e9pq",
+    "variant": {
+      "dataset": "coco_panoptic",
+      "size": "small",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 23,
+      "metrics/val_pq_all": 0.4191674804340818
+    },
+    "training_config": "weights/configs/TokenMask/coco_panoptic_small_eomt_feature_orj6e9pq.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_162237-orj6e9pq/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_panoptic_small_eomt_feature_orj6e9pq.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_panoptic_tiny_eomt_feature_q3i5oimg.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/q3i5oimg/checkpoints/epoch=23-step=709584.ckpt",
+    "source_bytes": 75466925,
+    "bytes": 25138564,
+    "sha256": "0531d353d082cb7e98095fcd0c7d00e28be4eaa1f2675c38f0e730a33b6a5877",
+    "source_sha256": "83e7eee2057b6e70e7abf7d9113e5727d21280107c8aaba0d5f858780c6f94cb",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 173,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "q3i5oimg",
+    "variant": {
+      "dataset": "coco_panoptic",
+      "size": "tiny",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.3281689936377611,
+      "epoch": 23
+    },
+    "training_config": "weights/configs/TokenMask/coco_panoptic_tiny_eomt_feature_q3i5oimg.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_162302-q3i5oimg/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_panoptic_tiny_eomt_feature_q3i5oimg.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_panoptic_tiny_tokenmask_logit_1lrzvh5h.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/1lrzvh5h/checkpoints/epoch=23-step=709584.ckpt",
+    "source_bytes": 71859133,
+    "bytes": 23937697,
+    "sha256": "e64595bef3106534cda70a7caa2ba73c0fb6ff04b6dafc837cbc9a6aa0eaa58e",
+    "source_sha256": "33742b4117198fd010eeac92ddb7d94d6c0640f1440d032e71b92aeed77c46ad",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 163,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "1lrzvh5h",
+    "variant": {
+      "dataset": "coco_panoptic",
+      "size": "tiny",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 23,
+      "metrics/val_pq_all": 0.3200445355967161
+    },
+    "training_config": "weights/configs/TokenMask/coco_panoptic_tiny_tokenmask_logit_1lrzvh5h.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_162425-1lrzvh5h/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_panoptic_tiny_tokenmask_logit_1lrzvh5h.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_panoptic_small_tokenmask_logit_kj7dqz6w.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/kj7dqz6w/checkpoints/epoch=23-step=709584.ckpt",
+    "source_bytes": 273706293,
+    "bytes": 91217753,
+    "sha256": "318b0d248829a54a409ac278984617e80a4c201f9c1bfc5bd8962d21990bd316",
+    "source_sha256": "ba47afb08bd81cf7ee023488dc2deaf118906df1b1406b0f7effbddf63e5180c",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "kj7dqz6w",
+    "variant": {
+      "dataset": "coco_panoptic",
+      "size": "small",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.4098610805396336,
+      "epoch": 23
+    },
+    "training_config": "weights/configs/TokenMask/coco_panoptic_small_tokenmask_logit_kj7dqz6w.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_162445-kj7dqz6w/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_panoptic_small_tokenmask_logit_kj7dqz6w.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_panoptic_large_tokenmask_logit_f3mkbkgr.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/f3mkbkgr/checkpoints/epoch=23-step=709584.ckpt",
+    "source_bytes": 3699884946,
+    "bytes": 1233260721,
+    "sha256": "abce782ff3448c39b1fe3103b40878c57e69ce9b128426ae92a6ed08cc0a3910",
+    "source_sha256": "0ae3122aefcd1eae1576f5eaa40a25db41a83b610801ff9c54f631a6842e0a10",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 356,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "f3mkbkgr",
+    "variant": {
+      "dataset": "coco_panoptic",
+      "size": "large",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.5086662455596211,
+      "epoch": 23
+    },
+    "training_config": "weights/configs/TokenMask/coco_panoptic_large_tokenmask_logit_f3mkbkgr.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_162528-f3mkbkgr/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_panoptic_large_tokenmask_logit_f3mkbkgr.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_panoptic_base_tokenmask_logit_n287tutz.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/n287tutz/checkpoints/epoch=23-step=709584.ckpt",
+    "source_bytes": 1067374389,
+    "bytes": 355773591,
+    "sha256": "66a72d4275ca1bddc5890c5e9ecc0cc96ba923c0dc0ad4815232f1f48d52d796",
+    "source_sha256": "29716e0c8de1db2bbfc7c251cbfde8db815551aaed25197cfef1e71e7bbf0339",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "n287tutz",
+    "variant": {
+      "dataset": "coco_panoptic",
+      "size": "base",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_pq_all": 0.44637403576033596,
+      "epoch": 23
+    },
+    "training_config": "weights/configs/TokenMask/coco_panoptic_base_tokenmask_logit_n287tutz.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260225_162549-n287tutz/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_panoptic_base_tokenmask_logit_n287tutz.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_instance_base_eomt_feature_c41lqjxj.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/c41lqjxj/checkpoints/epoch=23-step=703584.ckpt",
+    "source_bytes": 1123742821,
+    "bytes": 374561263,
+    "sha256": "2f09ce7d3b0d10cb86d87be3ddfce3cb68cd9177d530205ce8ba0133a8325c32",
+    "source_sha256": "75739d1f184b7258a3a1b4beab82aa75ade13f9c0d476a1b70c8a1b7925b07b3",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 198,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "c41lqjxj",
+    "variant": {
+      "dataset": "coco_instance",
+      "size": "base",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "metrics/val_ap_all": 0.33771470189094543,
+      "epoch": 23
+    },
+    "training_config": "weights/configs/TokenMask/coco_instance_base_eomt_feature_c41lqjxj.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260226_131848-c41lqjxj/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_instance_base_eomt_feature_c41lqjxj.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_instance_large_eomt_feature_zsr55puj.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/zsr55puj/checkpoints/epoch=23-step=703584.ckpt",
+    "source_bytes": 3800204586,
+    "bytes": 1266698267,
+    "sha256": "8f3f542b7cd48b4e288b69c94d85f2a3fdea7c08811ffb8a13a87dc6b9881db8",
+    "source_sha256": "82947a9dc30eb8b7f21ae8f23233058253e8a6b7a89bbb5c043eed8d3b5a07e3",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 366,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "zsr55puj",
+    "variant": {
+      "dataset": "coco_instance",
+      "size": "large",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 23,
+      "metrics/val_ap_all": 0.4087662398815155
+    },
+    "training_config": "weights/configs/TokenMask/coco_instance_large_eomt_feature_zsr55puj.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260226_132056-zsr55puj/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_instance_large_eomt_feature_zsr55puj.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_instance_small_eomt_feature_gykrved2.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/gykrved2/checkpoints/epoch=23-step=703584.ckpt",
+    "source_bytes": 287741029,
+    "bytes": 95894203,
+    "sha256": "78ef16c79e3d2e1985abcd92885719edf7f9b0e54663436fcc58549dd45a23c0",
+    "source_sha256": "a2602d0c45b5daef48362b10a30c3eff121d5462c2c2e1ad7fe1e7561c8e481a",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 198,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "gykrved2",
+    "variant": {
+      "dataset": "coco_instance",
+      "size": "small",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 23,
+      "metrics/val_ap_all": 0.29785534739494324
+    },
+    "training_config": "weights/configs/TokenMask/coco_instance_small_eomt_feature_gykrved2.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260226_132305-gykrved2/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_instance_small_eomt_feature_gykrved2.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_instance_tiny_eomt_feature_8o0r30wg.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/8o0r30wg/checkpoints/epoch=23-step=703584.ckpt",
+    "source_bytes": 75343789,
+    "bytes": 25097476,
+    "sha256": "370cd11d82aa3c153408102dc89c58c6bd434eb4d6c7f2ea2a9d53d37a72b622",
+    "source_sha256": "8c9394a2fd39f25d850f4373c41eab0655b12559afbd81a60f41a148f6e6533e",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 173,
+    "family": "TokenMask",
+    "role": "paper_baseline",
+    "run_id": "8o0r30wg",
+    "variant": {
+      "dataset": "coco_instance",
+      "size": "tiny",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "feature_map",
+      "upsampling": "feature",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 23,
+      "metrics/val_ap_all": 0.21490201354026794
+    },
+    "training_config": "weights/configs/TokenMask/coco_instance_tiny_eomt_feature_8o0r30wg.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260226_132327-8o0r30wg/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_instance_tiny_eomt_feature_8o0r30wg.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_instance_base_tokenmask_logit_v41oa0w4.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/v41oa0w4/checkpoints/epoch=23-step=703584.ckpt",
+    "source_bytes": 1066884917,
+    "bytes": 355610263,
+    "sha256": "e446d8e95a71a8ed2505b19d1142af70d289558f849e6ce26192fae38da7db10",
+    "source_sha256": "19b8a814c17fb7c359b7c3806521844cae92468db0722c39d9effdc74460e7f6",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "v41oa0w4",
+    "variant": {
+      "dataset": "coco_instance",
+      "size": "base",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 23,
+      "metrics/val_ap_all": 0.30999457836151123
+    },
+    "training_config": "weights/configs/TokenMask/coco_instance_base_tokenmask_logit_v41oa0w4.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260226_132645-v41oa0w4/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_instance_base_tokenmask_logit_v41oa0w4.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_instance_large_tokenmask_logit_5cfsfynh.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/5cfsfynh/checkpoints/epoch=23-step=703584.ckpt",
+    "source_bytes": 3699232722,
+    "bytes": 1233043121,
+    "sha256": "bfd189c21380640a05e067830c3f6d64da56b8775662bb73bcbf4552a57184fd",
+    "source_sha256": "a74da13a95bcc1d1158cf6ba2354e6b75384cda16dd374947f5eb474d5e5aa94",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 356,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "5cfsfynh",
+    "variant": {
+      "dataset": "coco_instance",
+      "size": "large",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 23,
+      "metrics/val_ap_all": 0.3738633096218109
+    },
+    "training_config": "weights/configs/TokenMask/coco_instance_large_tokenmask_logit_5cfsfynh.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260226_132831-5cfsfynh/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_instance_large_tokenmask_logit_5cfsfynh.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_instance_small_tokenmask_logit_98a41lvj.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/98a41lvj/checkpoints/epoch=23-step=703584.ckpt",
+    "source_bytes": 273461045,
+    "bytes": 91135833,
+    "sha256": "fc004a06d3faa5f591e6a2f5c69304fba01b837cf269033e2589c2eaa1f4e313",
+    "source_sha256": "776fd24eff54951001cdc7bc10299a01faba92518801e8776c2c9a54d679089d",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 188,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "98a41lvj",
+    "variant": {
+      "dataset": "coco_instance",
+      "size": "small",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 23,
+      "metrics/val_ap_all": 0.27473244071006775
+    },
+    "training_config": "weights/configs/TokenMask/coco_instance_small_tokenmask_logit_98a41lvj.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260226_132859-98a41lvj/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_instance_small_tokenmask_logit_98a41lvj.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/coco_instance_tiny_tokenmask_logit_me9e1l90.pth",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/eomt/me9e1l90/checkpoints/epoch=23-step=703584.ckpt",
+    "source_bytes": 71735997,
+    "bytes": 23896481,
+    "sha256": "f7a69a34736d9b484488cca0bf8843dad5039caf6caf8c6d0b4790df1bafa68e",
+    "source_sha256": "24b76d38b9f31a5d96dc721bb0cc5b6a6ef5edf8d3be245c1922c9044bc8782d",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "state_dict",
+    "tensors": 163,
+    "family": "TokenMask",
+    "role": "paper_model",
+    "run_id": "me9e1l90",
+    "variant": {
+      "dataset": "coco_instance",
+      "size": "tiny",
+      "network": "models.ceomt3.EoMT",
+      "mask_prediction": "token",
+      "upsampling": "logit",
+      "stride": 4
+    },
+    "recorded_training_scores": {
+      "epoch": 23,
+      "metrics/val_ap_all": 0.20195388793945312
+    },
+    "training_config": "weights/configs/TokenMask/coco_instance_tiny_tokenmask_logit_me9e1l90.yaml",
+    "config_source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/wandb/run-20260226_132917-me9e1l90/files/config.yaml",
+    "hyperparameters": "weights/configs/TokenMask/coco_instance_tiny_tokenmask_logit_me9e1l90.json",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/baselines/ade20k_L_640.bin",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/checkpoints/ade20k_L_640.bin",
+    "source_bytes": 1266978114,
+    "bytes": 1266978114,
+    "sha256": "9f3f0114fed3f3a91bf0319bde7b144273129fa1520b9bb310bcfeb0b772d719",
+    "source_sha256": "9f3f0114fed3f3a91bf0319bde7b144273129fa1520b9bb310bcfeb0b772d719",
+    "verification": "Byte-for-byte copy of the original inference/pretrained file",
+    "family": "TokenMask",
+    "role": "pretrained_baseline",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/TokenMask/baselines/ade20k_g_640.bin",
+    "source": "/data1/is156025/cg276974/cyril/codes/lips2/eomt/checkpoints/ade20k_g_640.bin",
+    "source_bytes": 4654795898,
+    "bytes": 4654795898,
+    "sha256": "d8bd0fbb082a27b3a4bbb6c946199fa22bbee5f2aa7375ace38ff82e76ffe94f",
+    "source_sha256": "d8bd0fbb082a27b3a4bbb6c946199fa22bbee5f2aa7375ace38ff82e76ffe94f",
+    "verification": "Byte-for-byte copy of the original inference/pretrained file",
+    "family": "TokenMask",
+    "role": "pretrained_baseline",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_vipseg_small.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/vipseg/vit-small/model_final.pth",
+    "source_bytes": 311853211,
+    "bytes": 103940799,
+    "sha256": "f82edcbcc195e1b23e76db3ea9c353425ca0365202e55ee87a8d32bb9fd767c8",
+    "source_sha256": "17f12a34b490f9561a3faa95e591d40fc9098f548cc624b9f4cebed770e12ac3",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 198,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_vipseg_small.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/vipseg/vit-small/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/vipseg_base.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/vipseg/vit-base/model_final.pth",
+    "source_bytes": 1177860219,
+    "bytes": 392607339,
+    "sha256": "ca44dea94f82b490cb13cdf5db1d622a1b4403067f74c1bf38125b3377b8102d",
+    "source_sha256": "99f282e4452a19b0fd24200d382f11ab3baeaec6d7eaf5c1d3fee5350f3881fb",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 202,
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/vipseg_base.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/vipseg/vit-base/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_vipseg_base.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/vipseg/vit-base/model_final.pth",
+    "source_bytes": 1175489179,
+    "bytes": 391819251,
+    "sha256": "c83708d1d36afb4ad63880cc22348663b4d50dbde72462639c860301c6634cc9",
+    "source_sha256": "831bba3e3190b6d2918c62aa00358003b9f5e41d7212f23c0a422a30a0801b1a",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 198,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_vipseg_base.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/vipseg/vit-base/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/vipseg_large.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/outputs/dyneomt_models/vipseg/model_final.pth",
+    "source_bytes": 3875514709,
+    "bytes": 1291815059,
+    "sha256": "710d455771c581a1cec468b8b4e5e513007fc907f0c80decdb186d696b82df02",
+    "source_sha256": "4db76bed8a5f2625243c055a5017e6faedce310444a5d315189cbe8248f00890",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 370,
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/vipseg_large.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/outputs/dyneomt_models/vipseg/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_vipseg_large.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain_same_protocol_finalweights/vipseg/vit-large/model_final.pth",
+    "source_bytes": 3872357221,
+    "bytes": 1290766167,
+    "sha256": "8deee74a884b5b472954f3e0c2df868020f8c123d3f71cb0264f864b1063580d",
+    "source_sha256": "2dbbd5779a5c458f64596574c4a09b47c6d83cec55352856d78db779913aaa4e",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 366,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_vipseg_large.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain_same_protocol_finalweights/vipseg/vit-large/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_ovis_small.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/ovis/vit-small/model_final.pth",
+    "source_bytes": 289277083,
+    "bytes": 96414631,
+    "sha256": "4848c21edcfb92c202dd8aa663455eb8eaefea772bc8a7c7fe0ebf0f1508530f",
+    "source_sha256": "976c0473acc4d3064d84bab19fbd12c19a8eed0bc0318a2823c848beb772dbaa",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 198,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_ovis_small.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/ovis/vit-small/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/ovis_base.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ovis/vit-base/model_final.pth",
+    "source_bytes": 1132709499,
+    "bytes": 377556427,
+    "sha256": "06c2c6a4cb966652965d02b8681d1a011a4429b7e61b7c73768acba0cbf58766",
+    "source_sha256": "5d176e3eb679a036f04517dbb436d2b4882225243f27f616eaf848e5244c73d8",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 202,
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/ovis_base.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ovis/vit-base/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_ovis_base.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/ovis/vit-base/model_final.pth",
+    "source_bytes": 1130338459,
+    "bytes": 376768155,
+    "sha256": "d5879b5ab420856a2a9347149ed6993d97c6aee6efaa1e0b34e7ddd9c5e1095e",
+    "source_sha256": "ae2470184ec9f4fd54c26a29c353648740490c845bf6a41d922ab230f9f9f061",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 198,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_ovis_base.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/ovis/vit-base/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/ovis_large.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ovis/vit-large/model_final.pth",
+    "source_bytes": 3815314261,
+    "bytes": 1271747235,
+    "sha256": "e6b7dfad5315f0fc6bafd8d1cb5e20b95ab13820f2a1ef9cb7198e160888cb80",
+    "source_sha256": "02001ec42dfd2472374a2a888e9acdb3b466e9e5a05615de2b0052147e7b221c",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 370,
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/ovis_large.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ovis/vit-large/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_ovis_large.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain_same_protocol_finalweights/ovis/vit-large/model_final.pth",
+    "source_bytes": 3812156773,
+    "bytes": 1270698223,
+    "sha256": "86ccbd4d6c51c36c28f46c5289f41e9bfe808324f5c1006746b5b539d66c491f",
+    "source_sha256": "1c67fd1a81757191b57e3a9374aa9f18f9d8ef5337736cf9f4cc2cc07ecb71f5",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 366,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_ovis_large.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain_same_protocol_finalweights/ovis/vit-large/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/ytvis2022_small.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ytvis2022/vit-small/model_final.pth",
+    "source_bytes": 290537851,
+    "bytes": 96833835,
+    "sha256": "20ca44a3241aecb2347bdd932de3e2a749f603d581a3aba42bb3229ef8bd4026",
+    "source_sha256": "5de13a8782d6b76c7ee1ca7811a6a690a1d17400303399f0c0a18d606102ca63",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 202,
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/ytvis2022_small.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ytvis2022/vit-small/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_ytvis2022_small.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/ytvis2022/vit-small/model_final.pth",
+    "source_bytes": 289346459,
+    "bytes": 96438819,
+    "sha256": "9b73d7d159c9f5b3cac5a4d59c85b94686be0cffe2d9a853945b98bf2404f966",
+    "source_sha256": "5921be260affee2510e2bdadb0e518c27e95711635689ead62e97d84ff3764b1",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 198,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_ytvis2022_small.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/ytvis2022/vit-small/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/ytvis2022_base.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ytvis2022/vit-base/model_final.pth",
+    "source_bytes": 1132847995,
+    "bytes": 377603675,
+    "sha256": "2a1cafd6ec1c5db76be0142f6573c9ea0ccda95f18cd3be35728d8b888a882d4",
+    "source_sha256": "e8bbc3c6c364bdcea38250fc0c5c9fc0644bea04761a631fd2b248fa7c535851",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 202,
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/ytvis2022_base.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ytvis2022/vit-base/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_ytvis2022_base.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/ytvis2022/vit-base/model_final.pth",
+    "source_bytes": 1130476955,
+    "bytes": 376815447,
+    "sha256": "3be1d16692e9cd63cb59915f8e9481129b9a4bd383e6fab73e67aab6495a6980",
+    "source_sha256": "8a4158f5ea273732c1643ad3ea933c6d71d80acd7409c51af666de45870d093a",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 198,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_ytvis2022_base.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/ytvis2022/vit-base/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/ytvis2022_large.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ytvis2022/vit-large/model_final.pth",
+    "source_bytes": 3815498837,
+    "bytes": 1271810683,
+    "sha256": "6200e8da098f6c7f54c79d6c93e15a8ef551ae662ed299435ff110f9d68aa3ec",
+    "source_sha256": "613f39488c9813a9f11fd90f1a411e3ab065499efc55785fb5f9d686776e2617",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 370,
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/ytvis2022_large.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt_corrected_temporal_targets/ytvis2022/vit-large/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_ytvis2022_large.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain_same_protocol_finalweights/ytvis2022/vit-large/model_final.pth",
+    "source_bytes": 3812341349,
+    "bytes": 1270761651,
+    "sha256": "e46ae7c88470d2a450dd02840b4821547027ae71e595c87cc46a680d395c528b",
+    "source_sha256": "934977d0e5f660cc397d93b22ec7f938e9d41bff78d3b0b14fda46b02d75318a",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 366,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_ytvis2022_large.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain_same_protocol_finalweights/ytvis2022/vit-large/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/vspw_small.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/vspw/vit-small/model_final.pth",
+    "source_bytes": 313044603,
+    "bytes": 104335259,
+    "sha256": "b49f92aee84324263651c112cdf520b280c1002cf9f5a9bfcf953bed67101179",
+    "source_sha256": "3ffcd11a4538bc71bca0ca25ad5d61b64fd29515513fe7d1d95d0e66229e179d",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 202,
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/vspw_small.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/vspw/vit-small/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_vspw_small.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/vspw/vit-small/model_final.pth",
+    "source_bytes": 311853211,
+    "bytes": 103940391,
+    "sha256": "a6125b6236b13f582d99ef84ffaffbec7e64177ca44c5b5efc201b18b8ec3bf9",
+    "source_sha256": "ea3629a4aa51a77180436509fd5ee5650045d676a2b9c0b2ef29cdebafb0e796",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 198,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_vspw_small.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/vspw/vit-small/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/vspw_base.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/vspw/vit-base/model_final.pth",
+    "source_bytes": 1177860219,
+    "bytes": 392606923,
+    "sha256": "f58b5eb0101133778e925a7af7cd1f740a80afe475f14584e50d872a7dadd347",
+    "source_sha256": "f4fff44985ba18d5647a0fe2860836126d5b76e75d5c10246949cab40feed112",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 202,
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/vspw_base.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/vspw/vit-base/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_vspw_base.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/vspw/vit-base/model_final.pth",
+    "source_bytes": 1175489179,
+    "bytes": 391818779,
+    "sha256": "f6c29e8bc7acece7f4dcd54cfc8d5b6fd62c703854063d13caa06fc0ca1eeba2",
+    "source_sha256": "0a51f3f396e7230c85d3a14f8ee0674af273b07532e1e3593d0c17850e17530d",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 198,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_vspw_base.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain/vspw/vit-base/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/vspw_large.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/outputs/dyneomt_models/vspw/model_final.pth",
+    "source_bytes": 3875514709,
+    "bytes": 1291814307,
+    "sha256": "390420fa4f534bf0deb99b1c557ca70858070891a4793c83ae503d4814c9e19e",
+    "source_sha256": "f492f8828534d351d6ffb51cf14b217d2caa26e4070b3e3e54c70e1ac2b4834e",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 370,
+    "family": "DynEoMT",
+    "role": "paper_model",
+    "paper_tables": [
+      "tab:segmentation",
+      "tab:dynamic"
+    ],
+    "training_config": "weights/configs/DynEoMT/vspw_large.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/outputs/dyneomt_models/vspw/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/baselines/videomt_vspw_large.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain_same_protocol_finalweights/vspw/vit-large/model_final.pth",
+    "source_bytes": 3872357221,
+    "bytes": 1290765423,
+    "sha256": "f284fde3977a1ec373179e9a4345735e985e6460e6b20581f708e894dc8220b0",
+    "source_sha256": "e948e35682bbf2f8b2d373da1f47172f50ed65ff3e81461d48f588364ae9aac4",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 366,
+    "family": "DynEoMT",
+    "role": "paper_baseline",
+    "paper_tables": [
+      "tab:segmentation"
+    ],
+    "training_config": "weights/configs/DynEoMT/baselines/videomt_vspw_large.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/videomt_retrain_same_protocol_finalweights/vspw/vit-large/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/previous_targets/ovis_small.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/ovis/vit-small/model_final.pth",
+    "source_bytes": 290468475,
+    "bytes": 96809627,
+    "sha256": "d7f92562aea3627465b804b98ee0201bd6067e2655f31a9d25533582bccdd946",
+    "source_sha256": "ad83753efdd41534774d675f8c4cd829a38c771dd6ac0d3426661d60a3d0a0b6",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 202,
+    "family": "DynEoMT",
+    "role": "earlier_paper_model",
+    "training_config": "weights/configs/DynEoMT/previous_targets/ovis_small.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/ovis/vit-small/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/previous_targets/ovis_base.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/ovis/vit-base/model_final.pth",
+    "source_bytes": 1132709499,
+    "bytes": 377556427,
+    "sha256": "05f21e8093668c9ddaadd8f43985acff5aac799d4e5e25a2b4e80a26cda558c5",
+    "source_sha256": "a2e3c61d43d37e7da44e0b94e408e15db8ed61640cefbc7de9ad7c307e3ad1ae",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 202,
+    "family": "DynEoMT",
+    "role": "earlier_paper_model",
+    "training_config": "weights/configs/DynEoMT/previous_targets/ovis_base.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/ovis/vit-base/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/previous_targets/ovis_large.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/outputs/dyneomt_models/ovis/model_final.pth",
+    "source_bytes": 3815314261,
+    "bytes": 1271747235,
+    "sha256": "2f34fd19297244e468a00110964b6d2fd598464364aaf2338686753f6142a6cf",
+    "source_sha256": "275b30ea2bf9bd527a670710e70c587346245a69ff78ca2cd06a37ed8a559f45",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 370,
+    "family": "DynEoMT",
+    "role": "earlier_paper_model",
+    "training_config": "weights/configs/DynEoMT/previous_targets/ovis_large.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/outputs/dyneomt_models/ovis/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/previous_targets/ytvis2022_small.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/ytvis2022/vit-small/model_final.pth",
+    "source_bytes": 290537851,
+    "bytes": 96833835,
+    "sha256": "7e26a4c97e32f2b1056715fd9ee6d24dbd6c0bdff1d5859af2dd57884a77b19f",
+    "source_sha256": "e6ddae9205bcc146b21f015447248a73aa3370ccd5ca03d3df328f03e538fa39",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 202,
+    "family": "DynEoMT",
+    "role": "earlier_paper_model",
+    "training_config": "weights/configs/DynEoMT/previous_targets/ytvis2022_small.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/ytvis2022/vit-small/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/previous_targets/ytvis2022_base.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/ytvis2022/vit-base/model_final.pth",
+    "source_bytes": 1132847995,
+    "bytes": 377603675,
+    "sha256": "fdd0f2af349b5cbd5ab079ce8b506c6fa2a32850c0f55d600cc33b5c9f4b4ba2",
+    "source_sha256": "301b286392319de048501ba7a0b53848c549e55c9fdbdb16c15d9400507455fe",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 202,
+    "family": "DynEoMT",
+    "role": "earlier_paper_model",
+    "training_config": "weights/configs/DynEoMT/previous_targets/ytvis2022_base.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/dyneomt/ytvis2022/vit-base/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/previous_targets/ytvis2022_large.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/outputs/dyneomt_models/ytvis2022/model_final.pth",
+    "source_bytes": 3815498837,
+    "bytes": 1271810683,
+    "sha256": "f3f8a12058efa2cfb28680e2931d71cd1609355471c507379366c142b4b3efa7",
+    "source_sha256": "90372cf037998f52d940e200b0669519c684b1ca8fdbfa0756907244e2616850",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 370,
+    "family": "DynEoMT",
+    "role": "earlier_paper_model",
+    "training_config": "weights/configs/DynEoMT/previous_targets/ytvis2022_large.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/outputs/dyneomt_models/ytvis2022/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/ablations/vipseg_vitl_frozen_linear.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/ablations/query_propagation/vipseg_vitl_frozen_linear/model_final.pth",
+    "source_bytes": 1290780115,
+    "bytes": 1290772803,
+    "sha256": "90e6d14152e49ef3ebdfcddf64b55d243bc18bf69cc296cef1a076acf8a9b9b5",
+    "source_sha256": "26ecfce71428d3d14d3cd2bfb532f805f8b2b91171db638511dff64ddf611a7a",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 368,
+    "family": "DynEoMT",
+    "role": "paper_ablation",
+    "paper_tables": [
+      "tab:query_probe"
+    ],
+    "training_config": "weights/configs/DynEoMT/ablations/vipseg_vitl_frozen_linear.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/ablations/query_propagation/vipseg_vitl_frozen_linear/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/ablations/vipseg_vitl_frozen_mlp.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/ablations/query_propagation/vipseg_vitl_frozen_mlp/model_final.pth",
+    "source_bytes": 1293922563,
+    "bytes": 1291819011,
+    "sha256": "f0320e56f936de4031193c2b2369cc9abaed8648d367e2a9a0622b22fcfa14b2",
+    "source_sha256": "a128713baf8a33b44931263e48a5f3fbdde75894f1d9c435cfe1864cc2bc8ac1",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 370,
+    "family": "DynEoMT",
+    "role": "paper_ablation",
+    "paper_tables": [
+      "tab:query_probe"
+    ],
+    "training_config": "weights/configs/DynEoMT/ablations/vipseg_vitl_frozen_mlp.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/ablations/query_propagation/vipseg_vitl_frozen_mlp/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/ablations/vipseg_vitl_frozen_mlp_no_query_propagation.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/ablations/query_propagation/vipseg_vitl_frozen_mlp_no_query_propagation/model_final.pth",
+    "source_bytes": 1293922563,
+    "bytes": 1291826907,
+    "sha256": "3e10896fea5da911be327877d18cb2a39d79bc30a237c95dcbf34f02880faec2",
+    "source_sha256": "4df446d6a3eff966b5f72aa7dcde173c26ca8f2846f929b19faf7e277e7334b3",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 370,
+    "family": "DynEoMT",
+    "role": "paper_ablation",
+    "paper_tables": [
+      "tab:query_probe"
+    ],
+    "training_config": "weights/configs/DynEoMT/ablations/vipseg_vitl_frozen_mlp_no_query_propagation.yaml",
+    "config_source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/outputs/ablations/query_propagation/vipseg_vitl_frozen_mlp_no_query_propagation/config.yaml",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/pretrained/ovis_vit_large_52.5.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/checkpoints/ovis_vit_large_52.5.pth",
+    "source_bytes": 1270696979,
+    "bytes": 1270698595,
+    "sha256": "093e76e2fb3d63dd1adf9e4d83199740856a59085ff7420098e09ee8513df940",
+    "source_sha256": "5c7984dd67e2521b2fbe6ef05dc8d317a4c3dcf6798486be306b26a734da254f",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 366,
+    "family": "DynEoMT",
+    "role": "pretrained_initialization",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/pretrained/videomt/ytvis2019/yt_2019_vit_base_58.2.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/checkpoints/videomt/ytvis2019/yt_2019_vit_base_58.2.pth",
+    "source_bytes": 376814363,
+    "bytes": 376815243,
+    "sha256": "c2dccf08a427e449fce53a292b7fbaebcde4022113a0e6759cbdf115753aec15",
+    "source_sha256": "c8cdf3d5b241cc8d40e359bdecb28e5facf271458e1b8eb49fb082d9d6dc345d",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 198,
+    "family": "DynEoMT",
+    "role": "pretrained_initialization",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/pretrained/videomt/ytvis2019/yt_2019_vit_small_52.8.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/checkpoints/videomt/ytvis2019/yt_2019_vit_small_52.8.pth",
+    "source_bytes": 96437799,
+    "bytes": 96438615,
+    "sha256": "aaf9f16e17a3e69d21fa2001e64ac880f603dc9f4f7309cb42f0faabb5db22e8",
+    "source_sha256": "aaf9cc1675cbc94e5640c42faf465875decfa60c992f6f90a5c62c89e5f27f5b",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 198,
+    "family": "DynEoMT",
+    "role": "pretrained_initialization",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/pretrained/vipseg_vit_large_55.2.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/checkpoints/vipseg_vit_large_55.2.pth",
+    "source_bytes": 1290766587,
+    "bytes": 1290768139,
+    "sha256": "23d3bcb7e0f329d5cf2f5ef9c5aa6d5e6d654ad20ace04b761f416b874d7f381",
+    "source_sha256": "7b9374bbaf46d25e0cddf796ce3d1852da0d6ecf744b496325969ec6c60322ef",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 366,
+    "family": "DynEoMT",
+    "role": "pretrained_initialization",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/pretrained/vspw_vit_large_95.0_64.9.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/checkpoints/vspw_vit_large_95.0_64.9.pth",
+    "source_bytes": 1290767767,
+    "bytes": 1290769255,
+    "sha256": "ba5c1a3b7dc1a298aba85f6a2255d82cb5a3712bee76456a50da86d8ffaaaabe",
+    "source_sha256": "ada5393812e7cfedcc1fdb3b09d8becd77e9dbe70d13e97ee09653d47cacaa2e",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 366,
+    "family": "DynEoMT",
+    "role": "pretrained_initialization",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  },
+  {
+    "file": "weights/DynEoMT/pretrained/yt_2022_vit_large_42.6.pth",
+    "source": "/data1/is156025/cg276974/DynEOMT/DynEoMT/checkpoints/yt_2022_vit_large_42.6.pth",
+    "source_bytes": 1270759791,
+    "bytes": 1270761279,
+    "sha256": "3f7776b017a85856d12559304668c6634fc5546c52649d0440b75e882dbcfdac",
+    "source_sha256": "305f02182ab5ef163bf7f26f5f902caf9b4fad02c2506a770b282ae316c9bc93",
+    "verification": "All tensors equal, same dtype and shape; state_dict version metadata preserved; optimizer removed",
+    "key": "model",
+    "tensors": 366,
+    "family": "DynEoMT",
+    "role": "pretrained_initialization",
+    "paper_sources": [
+      "DynEOMT/Thesis_v3/main.tex",
+      "DynEOMT/VISAPP_2027/main.tex",
+      "DynEOMT/last_version/main.tex",
+      "DynEOMT/paper_mp/main.tex"
+    ]
+  }
+]

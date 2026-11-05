@@ -1,0 +1,11 @@
+numpy<2
+cython
+scipy
+shapely
+timm==1.0.15
+h5py
+submitit
+scikit-image
+einops
+opencv-python<4.12
+cityscapesscripts

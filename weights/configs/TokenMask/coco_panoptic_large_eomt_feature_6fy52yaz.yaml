@@ -1,0 +1,2463 @@
+_instantiator:
+    value: lightning.pytorch.cli.instantiate_module
+_wandb:
+    value:
+        cli_version: 0.19.10
+        m:
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": trainer/global_step
+              "6":
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.norm.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": metrics/val_pq_stuff
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": metrics/val_sq_stuff
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": losses/train_loss_mask
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.pos_embed
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": attn_mask_prob_2
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.upscale.1.conv2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.mask_head.4.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": attn_mask_prob_1
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": metrics/val_pq_things
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.mask_head.0.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.mask_head.2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": epoch
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.upscale.1.norm.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.q.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": metrics/val_sq_all
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.upscale.0.conv2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": losses/train_loss_total
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": metrics/val_rq_stuff
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.patch_embed.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.mask_head.2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.class_head.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.patch_embed.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": metrics/val_rq_all
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": attn_mask_prob_0
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.mask_head.4.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": metrics/val_rq_things
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": metrics/val_pq_all
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.upscale.1.norm.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": metrics/val_sq_things
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.norm.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.cls_token
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.4.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": losses/train_loss_dice
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.upscale.0.norm.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.upscale.1.conv1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.mlp.fc2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.reg_token
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.15.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.mlp.fc1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.7.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.16.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.20.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.11.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.17.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.22.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.class_head.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.14.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.10.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.upscale.0.conv1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.3.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.attn.qkv.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.mask_head.0.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.attn.proj.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.1.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.0.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.21.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.9.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.norm1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.attn.proj.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.ls2.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.13.ls1.gamma
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.upscale.1.conv1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.upscale.0.norm.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.12.norm2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.18.norm2.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.8.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": losses/train_loss_cross_entropy
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.upscale.0.conv1.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.2.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.6.norm1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.5.mlp.fc1.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.19.attn.qkv.weight
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+            - "1": lr-AdamW/network.encoder.backbone.blocks.23.mlp.fc2.bias
+              "5": 2
+              "6":
+                - 1
+                - 3
+              "7": []
+        python_version: 3.13.2
+        t:
+            "1":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 51
+                - 55
+                - 63
+                - 106
+            "2":
+                - 1
+                - 11
+                - 41
+                - 49
+                - 51
+                - 55
+                - 63
+                - 106
+            "3":
+                - 7
+                - 13
+                - 23
+                - 55
+                - 66
+            "4": 3.13.2
+            "5": 0.19.10
+            "6": 4.56.1
+            "8":
+                - 5
+            "12": 0.19.10
+            "13": linux-x86_64
+attn_mask_annealing_enabled:
+    value: true
+attn_mask_annealing_end_steps:
+    value:
+        - 59128
+        - 103474
+        - 147820
+attn_mask_annealing_start_steps:
+    value:
+        - 29564
+        - 73910
+        - 118256
+batch_size:
+    value: 4
+check_empty_targets:
+    value: true
+ckpt_path:
+    value: null
+class_coefficient:
+    value: 2
+color_jitter_enabled:
+    value: false
+delta_weights:
+    value: false
+dice_coefficient:
+    value: 5
+img_size:
+    value:
+        - 640
+        - 640
+importance_sample_ratio:
+    value: 0.75
+llrd:
+    value: 0.8
+llrd_l2_enabled:
+    value: true
+load_ckpt_class_head:
+    value: true
+lr:
+    value: 0.0001
+lr_mult:
+    value: 1
+mask_coefficient:
+    value: 5
+mask_thresh:
+    value: 0.8
+network:
+    value:
+        class_path: models.ceomt3.EoMT
+        init_args:
+            cosine_mask_logits: false
+            encoder:
+                class_path: models.vit.ViT
+                init_args:
+                    backbone_name: vit_large_patch14_reg4_dinov2.lvd142m
+                    patch_size: 16
+            lowres_mask_for_attn: true
+            mask_out_stride: 4
+            mask_pred_mode: feature_map
+            mask_upsample_mode: feature
+            masked_attn_enabled: false
+            num_blocks: 3
+            num_q: 200
+            token_mask_softmax: false
+            token_mask_temperature: 1
+no_object_coefficient:
+    value: 0.1
+num_classes:
+    value: 133
+num_points:
+    value: 12544
+num_workers:
+    value: 4
+overlap_thresh:
+    value: 0.8
+oversample_ratio:
+    value: 3
+path:
+    value: /data1/is156025/cg276974/cyril/codes/lips2/data
+poly_power:
+    value: 0.9
+scale_range:
+    value:
+        - 0.1
+        - 2
+stuff_classes:
+    value:
+        - 80
+        - 81
+        - 82
+        - 83
+        - 84
+        - 85
+        - 86
+        - 87
+        - 88
+        - 89
+        - 90
+        - 91
+        - 92
+        - 93
+        - 94
+        - 95
+        - 96
+        - 97
+        - 98
+        - 99
+        - 100
+        - 101
+        - 102
+        - 103
+        - 104
+        - 105
+        - 106
+        - 107
+        - 108
+        - 109
+        - 110
+        - 111
+        - 112
+        - 113
+        - 114
+        - 115
+        - 116
+        - 117
+        - 118
+        - 119
+        - 120
+        - 121
+        - 122
+        - 123
+        - 124
+        - 125
+        - 126
+        - 127
+        - 128
+        - 129
+        - 130
+        - 131
+        - 132
+warmup_steps:
+    value:
+        - 500
+        - 1000
+weight_decay:
+    value: 0.05

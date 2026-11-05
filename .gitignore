@@ -1,0 +1,35 @@
+# Poids et exports de modèles : conservés uniquement en local.
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.bin
+*.safetensors
+*.onnx
+*.engine
+*.plan
+*.partial
+
+# Rapports, sorties, datasets et environnements locaux.
+/reports/
+**/outputs/
+**/wandb/
+**/checkpoints/
+**/datasets/ADEChallengeData2016/
+**/datasets/cityscapes/
+.venv/
+venv/
+
+# Caches, fichiers compilés et configuration privée.
+__pycache__/
+*.py[cod]
+*.so
+*.o
+*.a
+build/
+*.egg-info/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.DS_Store
